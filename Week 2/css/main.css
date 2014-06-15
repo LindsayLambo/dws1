@@ -1,60 +1,97 @@
+a:link {
+	color: #A60000;
+	text-decoration: none;}
+a:visited {
+	color: #000000;}
+a:hover {
+	color: #FF7400;
+	text-decoration: underline;}
+a:active {
+	color: #CD0074;}
 h1
 	{
 	font-size:25px;
-	color:#F9D6D6;
-	background-color:#840A0A;
+	color:#FF7373;
+	background-color:#BF3030;
 	text-align:left;
+	text-shadow:1px 1px 3px #000;
 	vertical-align:top;
 	margin:6px;
 	padding:2px;
-	border:#F98181 solid;
-	border-width:1px;
+	border:#A60000 solid;
+	border-width:2px;
 	opacity:0.75;
 	}
 h2
 	{
 	font-size:19px;
-	color:#F9D6D6;
-	background-color:#840A0A;
+	color:#FF7373;
+	background-color:#BF3030;
 	text-align:left;
+	text-shadow:1px 1px 3px #000;
 	margin:4 px;
 	padding:2 px;
-	border:#F98181 solid;
-	border-width:1px;
+	border:#A60000 solid;
+	border-width:2px;
 	opacity:0.75;
 	}
 h3
 	{
 	font-weight:bold;
-	color:#F9D6D6;
-	background-color:#840A0A;
+	color:#FF7373;
+	background-color:#BF3030;
 	text-align:left;
+	text-shadow:1px 1px 3px #000;
 	margin:4px;
 	padding:2px;
-	border:#F98181 solid;
-	border-width:1px;
+	border:#A60000 solid;
+	border-width:2px;
 	opacity:0.75;
 	}
 body
 	{
-	font-size:16px;
+	font-size:19px;
 	color:#840A0A;
 	background-color:#F9D6D6;
+	-moz-box-shadow: 5px 5px 5px; 
+	-webkit-box-shadow: 5px 5px 5px;
+	box-shadow:inset 5px 5px 5px #000;
 	text-align:left;
+	text-shadow:1px 1px 3px #000;
 	vertical-align:middle;
 	margin:10px 15px;
 	padding:5px;
 	}
 p
 	{
+	font-size:19px;
 	width:400px;
 	height:120px;
 	font-size:26px;
 	color:#F98181;
 	text-align:right;
-	text-shadow: 1px 1px 3px #666666;
+	text-shadow: 1px 1px 3px #000;
 	margin:20px auto;
 	padding:5px;
 	border:#F9D6D6 solid;
 	border-width:2px;
+	}
+h3#Specs
+	{
+	font-size:20px;
+	color:#FF7373;
+	background-color:#BF3030;
+	text-align:left;
+	text-shadow:1px 1px 3px #000;
+	margin:15pz auto;
+	padding:5px;
+	border:#A60000 solid;
+	border-width:2px;
+	}
+
+#column1
+	{ 
+	width: 180px;
+  	float: right;
+  	padding: 16px 0px 15px 0px;
 	}
