@@ -9,6 +9,7 @@ h1
 	padding:2px;
 	border:#F98181 solid;
 	border-width:1px;
+	opacity:0.75;
 	}
 h2
 	{
@@ -20,6 +21,7 @@ h2
 	padding:2 px;
 	border:#F98181 solid;
 	border-width:1px;
+	opacity:0.75;
 	}
 h3
 	{
@@ -31,6 +33,7 @@ h3
 	padding:2px;
 	border:#F98181 solid;
 	border-width:1px;
+	opacity:0.75;
 	}
 body
 	{
@@ -46,12 +49,12 @@ p
 	{
 	width:400px;
 	height:120px;
-	font-size:16px;
+	font-size:26px;
 	color:#F98181;
-	background-color:#960E0E;
 	text-align:right;
-	margin:10px auto;
-	padding:2px;
+	text-shadow: 1px 1px 3px #666666;
+	margin:20px auto;
+	padding:5px;
 	border:#F9D6D6 solid;
-	border-width:1px;
+	border-width:2px;
 	}
