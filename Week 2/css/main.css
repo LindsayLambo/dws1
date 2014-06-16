@@ -7,19 +7,21 @@ a:hover {
 	color: #FF7400;
 	text-decoration: underline;}
 a:active {
-	color: #CD0074;}
+	color: #CD0074;}	
 h1
 	{
 	font-size:25px;
 	color:#FF7373;
 	background-color:#BF3030;
 	text-align:left;
-	text-shadow:1px 1px 3px #000;
+	text-shadow:1px 1px 1px #000;
 	vertical-align:top;
 	margin:6px;
 	padding:2px;
 	border:#A60000 solid;
+    border-radius: 25px;
 	border-width:2px;
+	box-shadow: 8px 8px 3px #888888;
 	opacity:0.75;
 	}
 h2
@@ -28,11 +30,12 @@ h2
 	color:#FF7373;
 	background-color:#BF3030;
 	text-align:left;
-	text-shadow:1px 1px 3px #000;
+	text-shadow:1px 1px 1px #000;
 	margin:4 px;
 	padding:2 px;
 	border:#A60000 solid;
 	border-width:2px;
+	box-shadow: 10px 10px 5px #888888;
 	opacity:0.75;
 	}
 h3
@@ -46,6 +49,7 @@ h3
 	padding:2px;
 	border:#A60000 solid;
 	border-width:2px;
+	box-shadow: 10px 10px 5px #888888;
 	opacity:0.75;
 	}
 body
@@ -57,7 +61,7 @@ body
 	-webkit-box-shadow: 5px 5px 5px;
 	box-shadow:inset 5px 5px 5px #000;
 	text-align:left;
-	text-shadow:1px 1px 3px #000;
+	text-shadow:1px 1px 1px #000;
 	vertical-align:middle;
 	margin:10px 15px;
 	padding:5px;
@@ -70,7 +74,7 @@ p
 	font-size:26px;
 	color:#F98181;
 	text-align:right;
-	text-shadow: 1px 1px 3px #000;
+	text-shadow: 1px 1px 1px #000;
 	margin:20px auto;
 	padding:5px;
 	border:#F9D6D6 solid;
@@ -82,11 +86,12 @@ h3#Specs
 	color:#FF7373;
 	background-color:#BF3030;
 	text-align:left;
-	text-shadow:1px 1px 3px #000;
+	text-shadow:1px 1px 1px #000;
 	margin:15pz auto;
 	padding:5px;
 	border:#A60000 solid;
 	border-width:2px;
+	box-shadow: 10px 10px 5px #888888;
 	}
 
 #column1
