@@ -24,12 +24,22 @@ h1
 	box-shadow: 8px 8px 3px #888888;
 	opacity:0.75;
 	}
-td.description	{
+td.description	
+	{
 	min-width:360px;
 	min-height:200px;
 	text-align:right;
 	padding:3px;
-	margin:2px;}
+	margin:2px;
+	}
+#nav1, #nav2, #nav3, #nav4, #nav5 
+	{
+	font-family: Arial, Verdana, sans-serif;
+	background-color:#F9D6D6;
+	display:inline;
+	padding:5px;
+	margin: 5px auto;
+	}	
 h2
 	{
 	font-size:19px;
@@ -60,6 +70,7 @@ h3
 	}
 body
 	{
+	font-family:Georgia,"Times New Roman", serif;
 	font-size:19px;
 	color:#840A0A;
 	background-color:#F9D6D6;
@@ -86,6 +97,14 @@ p
 	border:#F9D6D6 solid;
 	border-width:2px;
 	}
+.AM
+	{
+	width:300px;
+	height:200px;
+	float:right;
+	overflow:auto;
+	clear:both;
+	}
 h3#Specs
 	{
 	font-size:20px;
@@ -104,7 +123,7 @@ h3#Specs
 	{ 
 	width: 180px;
   	float: right;
-  	clear: both
+  	clear: both;
   	padding: 16px 0px 15px 0px;
   	overflow:auto;
 	}
