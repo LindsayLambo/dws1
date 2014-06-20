@@ -57,7 +57,7 @@ font-family:Arial, Georgia, serif;
 font-size : 19px;
 font-weight:normal;
 font-style:normal;
-line-height:105%;
+line-height:100%;
 color : #840A0A;
 background-color : #F9D6D6;
 box-shadow : 5px 5px 5px #000 inset;
@@ -87,6 +87,9 @@ margin : 20px auto;
 padding : 5px;
 border : #F9D6D6 solid;
 border-width : 2px;
+}
+p.vantage {
+clear:both;
 }
 ol {
 list-style-type: lower-roman;
