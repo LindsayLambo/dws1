@@ -60,7 +60,7 @@ font-weight:normal;
 font-style:normal;
 line-height:100%;
 color : #840A0A;
-background-image: url("images/pattern.png") repeat center;
+background-image: url("images/pattern.png") repeat;
 box-shadow : 5px 5px 5px #000 inset;
 text-align : left;
 text-shadow : 1px 1px 1px #000;
@@ -123,19 +123,24 @@ border : #A60000 solid;
 border-width : 2px;
 box-shadow : 10px 10px 5px #888888;
 }
-#news {
-float: left;
-width:600px;
-margin:10px;
-clear:both;
-}
 .description {
 width : 180px;
 float : right;
 padding : 16px 0 15px 0;
 }
+#news {
+float: left;
+width:600px;
+margin:10px;
+clear:left;
+}
 .hide-text {
 text-indent: 100%;
 white-space: nowrap;
 overflow: hidden;
+}
+#linksrel {
+width : 180px;
+float : right;
+padding : 16px 0 15px 0;
 }
