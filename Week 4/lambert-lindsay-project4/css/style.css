@@ -29,6 +29,23 @@ margin : 10px 15px auto;
 padding : 5px;
 display: block;
 }
+input {
+padding: 6px 12px 6px 12px;
+border: 1px solid #665544;
+color: #ffffff;
+}
+input.submit:hover {
+background-color: #BF3030;
+}
+input.submit:active {
+background-color: #A60000;
+}
+input.text {
+color: #cccccc;
+}
+input.text:focus {
+color:#665544;
+}
 h1 {
 font-family: FertigoProRegular, Georgia, serif;
 font-size : 25px;
@@ -42,6 +59,7 @@ padding : 2px;
 border : #A60000 solid;
 border-radius : 25px;
 border-width : 2px;
+position: relative;
 box-shadow : 8px 8px 3px #888888;
 opacity : 0.75;
 }
@@ -55,6 +73,13 @@ border : #A60000 solid;
 border-width : 2px;
 box-shadow : 10px 10px 5px #888888;
 opacity : 0.75;
+}
+.hide-text {
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+float:right;
+clear:both;
 }
 h3 {
 font-weight : bold;
@@ -145,8 +170,8 @@ text-align : center;
 text-shadow : 1px 1px 1px #000;
 margin : auto;
 padding : 5px;
-border : #A60000 solid;
-border-width : 2px;
+border : solid #A60000;
+border-width: 2px;
 box-shadow : 10px 10px 5px #888888;
 
 }
@@ -158,9 +183,10 @@ text-align : center;
 text-shadow : 1px 1px 1px #000;
 margin : auto;
 padding : 5px;
-border : #A60000 solid;
-border-width : 2px;
+border : solid #A60000;
+border-width: 2px;
 box-shadow : 10px 10px 5px #888888;
+
 }
 #news {
 float: left;
@@ -168,11 +194,6 @@ width:600px;
 margin:10px;
 clear:left;
 display:block;
-}
-.hide-text {
-text-indent: 100%;
-white-space: nowrap;
-overflow: hidden;
 }
 #linksrel {
 width : 180px;

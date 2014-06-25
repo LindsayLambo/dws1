@@ -1,3 +1,5 @@
 https://github.com/LindsayLambo/dws1.git
 
-https://github.com/LindsayLambo/dws1/tree/gh-pages
+https://github.com/LindsayLambo/dws1/tree/gh-pages/Week%204/lambert-lindsay-project4
+
+file:///Users/lindsaylambert/Desktop/dws1/Week%204/lambert-lindsay-project4/index.html
