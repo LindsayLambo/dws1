@@ -82,6 +82,9 @@ opacity : 0.75;
 img a {
 border: 1px solid #BF3030;
 }
+img a:hover {
+border:3px solid #FF6600;
+}
 img.large {
 width: 460px;
 height: 280px;
