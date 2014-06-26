@@ -13,6 +13,7 @@ a:active {
 color : #CD0074;
 }
 body {
+position:center;
 width:1200px;
 font-family:Arial, Georgia, serif;
 font-size : 19px;
@@ -43,11 +44,37 @@ background-color: #A60000;
 input.text {
 color: #FF7373;
 text-align:right;
+letter-spacing: 0.3em;
 }
 input.text:focus {
 color:#665544;
 }
-h1 {
+#dropdownp {
+font-size:18px;
+width:70px;
+height:80px;
+background-color: #BF3030;
+border: 2px #A60000 solid;
+color: #FF7373;
+text-align : left;
+text-shadow : 1px 1px 1px #000;
+padding: 3px;
+float:right;
+clear:right;
+}
+#dropdown {
+font-size:14px;
+width:85px;
+background-color: #BF3030;
+border: 2px #A60000 solid;
+color: #FF7373;
+text-align : left;
+text-shadow : 1px 1px 1px #000;
+padding: 3px;
+float:right;
+}
+header {
+width:100%;
 font-family: FertigoProRegular, Georgia, serif;
 font-size : 25px;
 color : #FF7373;
@@ -64,6 +91,23 @@ position: relative;
 box-shadow : 8px 8px 3px #888888;
 opacity : 0.75;
 }
+#thedb9 {
+width:100%;
+color : #FF7373;
+background-color : #BF3030;
+text-align : left;
+text-shadow : 1px 1px 1px #000;
+vertical-align : top;
+margin : 6px;
+padding : 2px;
+border : #A60000 solid;
+border-width : 2px;
+position: relative;
+box-shadow : 8px 8px 3px #888888;
+opacity : 0.75;
+position:relative;
+clear:both;
+}
 h2 {
 font-size : 19px;
 color : #FF7373;
@@ -75,12 +119,12 @@ border-width : 2px;
 box-shadow : 10px 10px 5px #888888;
 opacity : 0.75;
 }
-.hide-text {
+.hidetext {
 text-indent: 100%;
 white-space: nowrap;
 overflow: hidden;
-float:right;
-clear:both;
+float:left;
+clear:left;
 }
 h3 {
 font-weight : bold;
@@ -141,7 +185,7 @@ clear: both;
 }
 .vantage {
 width:500px;
-height:500px;
+height:200px;
 border: 2px;
 box-shadow: 10px 10px 5px #888;
 float:right;
@@ -150,7 +194,7 @@ clear:both;
 .hidetext {
 font-size : 19px;
 width : 400px;
-height : 120px;
+height : 170px;
 font-size : 26px;
 color : #F98181;
 text-align : right;
@@ -159,7 +203,8 @@ margin : 20px auto;
 padding : 5px;
 border : #F9D6D6 solid;
 border-width : 2px;
-clear:both;
+float:left;
+clear:left;
 }
 ol {
 list-style-type: lower-roman;
@@ -197,8 +242,12 @@ margin:10px;
 clear:left;
 display:block;
 }
+#news2 {
+float: right;
+margin: 20px 10px 20px 50px;
+}
 #linksrel {
 width : 180px;
-float : right;
+float : left;
 padding : 16px 0 15px 0;
 }
