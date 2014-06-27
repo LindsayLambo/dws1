@@ -70,6 +70,7 @@ border: 2px #A60000 solid;
 color: #FF7373;
 text-align : left;
 text-shadow : 1px 1px 1px #000;
+margin: 2px;
 padding: 3px;
 float:right;
 }
@@ -103,6 +104,7 @@ border : #A60000 solid;
 border-width : 2px;
 box-shadow : 8px 8px 3px #888888;
 float: right;
+clear:right;
 }
 #thedb9 {
 width:100%;
@@ -239,7 +241,7 @@ border : solid #A60000;
 border-width: 2px;
 box-shadow : 10px 10px 5px #888888;
 }
-.even {
+.even, #comments {
 width: 660px;
 font-size : 20px;
 color : #FF7373;
@@ -252,6 +254,7 @@ border : solid #A60000;
 border-width: 2px;
 box-shadow : 10px 10px 5px #888888;
 }
+
 #news1 {
 width:100%;
 margin:10px;
