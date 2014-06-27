@@ -264,7 +264,7 @@ display:block;
 float:left;
 clear:left;
 
-#news2 {
+#news2, #news3 {
 float: right;
 margin: 20px;
 }
