@@ -1,0 +1,22 @@
+body {
+	width:1000 px;
+	text-align:left;
+	color:#3399ff;
+}	
+blockquote {
+	float: right;
+	width:300px;
+	font-size:120%;
+	color:#ff3574;
+	font-style:italic;
+	font-family:Helvetica, Georgia, serif;
+	margin:0px 0px 10px 10px;
+	padding:10px;
+	border-top:1px solid #666666;
+	border-bottom:1px solid #666666;
+}
+.headers {
+	color:#ff3574;
+	position:center;
+}	
+		
