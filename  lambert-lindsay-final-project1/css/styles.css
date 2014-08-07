@@ -3,7 +3,6 @@
 	text-align:center;
 }	
 body {
-	width:1000 px;
 	text-align:left;
 	color:#3399ff;
 }	
@@ -22,7 +21,6 @@ blockquote {
 }
 .headers {
 	color:#ff3574;
-	background-color:3fa9f5;
 }	
 #accomplishments {
 	width:300px;
