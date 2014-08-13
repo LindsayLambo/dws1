@@ -1,0 +1,3 @@
+https://github.com/LindsayLambo/dws1/tree/gh-pages
+https://github.com/LindsayLambo/dws1.git
+http://lindsaylambo.github.io/dws1
