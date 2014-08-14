@@ -1,31 +1,82 @@
-
+@font-face {
+	font-family: 'AlexBrush';
+	src: url('fonts/AlexBrush-Regular.tff');
+}
+a:link {
+	color: #665544;
+}
+a:hover {
+	color: #639;
+}
+a:active {
+	color: #f63;
+}
+a:visited {
+	color: #099;
+}
 #title {
 	text-align:center;
+	text-transform: uppercase;
 }	
 body {
-	font-weight: bolder;
+	border-radius: 10px;
+	font-weight: lighter;
 	text-align:left;
-	color:#3399ff;
+	color:#639;
+	padding: 13px;
+}
+#birthday {
+	display:center;
+	padding: 10px;
+	background-color: #099;
+	color: #6cc;
+	border-top:1px solid #666666;
+	border-bottom:1px solid #666666;
+	text-shadow: 1px 1px 2px;
+	box-shadow: 2px 3px 2px 3px #777777;
+}
+.container {
+	width: 950px;
+	margin: 18px auto 18px auto;
+	color: #f63;
+	border: 2 px solid #f63;
+	background-color:#fff;
+	padding: inherit; 
 }	
+#list {
+	list-style-type: lower-roman;
+	list-style-position: outside;
+}
 blockquote {
 	float: right;
 	width:300px;
 	font-style:italic;
-	font-weight: lighter;
+	font-weight: bolder;
 	font-size: 18px;
-	line-height: 8px;
+	line-height: 1.4em;
 	font-family:Helvetica, Verdana, sans-serif;
-	background-color:#ffec35;
-	color:#ff3574;
+	background-color:#639;
+	color:#f63;
+	opacity: 80%;
 	margin:0px 0px 10px 10px;
 	padding:10px;
 	border-top:1px solid #666666;
 	border-bottom:1px solid #666666;
+	text-shadow: 1px 1px 2px;
 }
 .headers {
-	color:#ff3574;
+	color:#099;
+	background-color: #f63;
+	opacity: 70%;
+	padding: inherit;
+	text-align: center;
 }	
 #accomplishments {
 	width:300px;
 	background-color:#ffec35;
+	text-shadow: 1px 1px 2px;
+	display: center;
 }			
+
+
+	
