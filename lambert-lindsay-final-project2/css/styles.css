@@ -1,7 +1,11 @@
+/* Lindsay Lambert Project 2 DWS1 8/14/14 */
 @font-face {
 	font-family: 'AlexBrush';
 	src: url('fonts/AlexBrush-Regular.tff');
 }
+
+/* Links Setup for User Interaction */
+
 a:link {
 	color: #654;
 }
@@ -14,10 +18,16 @@ a:active {
 a:visited {
 	color: #099;
 }
+
+/* Title Only */
+
 #title {
 	text-align:center;
 	text-transform: uppercase;
 }	
+
+/* Generic Body Styling */
+
 body {
 	border-radius: 10px;
 	font-weight: lighter;
@@ -27,6 +37,9 @@ body {
 	padding: 13px;
 	background-color: #99c;
 }
+
+/* Sebastian's Birthday */
+
 #birthday {
 	display:block;
 	font-size: 24px;
@@ -37,6 +50,9 @@ body {
 	border-radius: 10px;
 	text-shadow: 1px 1px 2px;
 }
+
+/* Container holding Content */
+
 .container {
 	width: 950px;
 	margin: 18px auto 18px auto;
@@ -46,11 +62,17 @@ body {
 	border-radius: 10px;
 	padding: inherit; 
 }	
+
+/* Ordered List */ 
+
 #list {
 	list-style-type: lower-roman;
 	list-style-position: inside;
 	border-radius: 10px;
 }
+
+/* My block quote that is on the right side of the page */
+
 blockquote {
 	float: right;
 	width:300px;
@@ -70,6 +92,9 @@ blockquote {
 	text-shadow: 1px 1px 2px;
 	box-shadow: 2px 2px 3px 3px #777;
 }
+
+/* Headers Only */
+
 .headers {
 	color:#fc9;
 	background-color: #f63;
@@ -80,6 +105,9 @@ blockquote {
 	border-style: groove;
 	text-shadow: 1px 1px 1px;
 }	
+
+/* Accomplishments at the Bottom of the Page */
+
 #accomplishments {
 	width:300px;
 	font-size: 20px;
