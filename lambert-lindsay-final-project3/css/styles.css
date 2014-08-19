@@ -1,6 +1,6 @@
 /* Lindsay Lambert Project 2 DWS1 8/14/14 */
 @font-face {
-	font-family: 'AlexBrush';
+	font-family: 'Alex Brush';
 	src: url('fonts/AlexBrush-Regular.tff');
 }
 
@@ -22,6 +22,7 @@ a:visited {
 /* Title Only */
 
 #title {
+	font-family; Alex Brush, Helvetica, Verdana;
 	text-align:center;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 2px;
@@ -30,6 +31,7 @@ a:visited {
 /* Generic Body Styling */
 
 body {
+	font-family: Georgia, Helvetica, Verdana;
 	border-radius: 10px;
 	font-weight: lighter;
 	text-align:left;
@@ -61,8 +63,32 @@ body {
 	border: 2px solid #f63;
 	background-color:#fff;
 	border-radius: 10px;
-	padding: inherit; 
+	padding: inherit;
 }	
+
+/* Image Links */
+
+.imagelinks {
+	border: 2px solid #fc9;
+	border-radius: 10px;
+	box-shadow: 2px 2px 3px 3px #777;
+	display: block;
+}	
+
+a:link {
+	color: #654;
+}
+a:hover {
+	color: #639;
+}
+a:active {
+	color: #f63;
+}
+a:visited {
+	color: #099;
+}
+
+
 
 /* Ordered List */ 
 
@@ -86,7 +112,7 @@ blockquote {
 	background-color:#639;
 	color:#c9c;
 	margin:0px 0px 10px 10px;
-	padding:10px;
+	padding:15px;
 	border-top:1px solid #666;
 	border-bottom:1px solid #666;
 	border-radius: 10px;
