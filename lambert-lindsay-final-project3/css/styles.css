@@ -82,16 +82,32 @@ body {
 	border-radius: 10px;
 	padding: inherit;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
+	clear:both;
 }	
 
 /* Page Navigation */
 
 #nav {
-	width: 880px;
-	padding: 8px;
-	margin: 18px auto 18px auto;
 	display: inline-block;
 }	
+
+
+/* Headers Only */
+
+
+.headers {
+	color:#fc9;
+	background-color: #f63;
+	opacity: 0.8;
+	padding: inherit;
+	border-radius: 10px;
+	text-align: center;
+	border-style: groove;
+	text-shadow: 1px 1px 1px;
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
+	clear: both;
+}	
+
 
 
 /* Image Links */
@@ -111,10 +127,11 @@ figure img {
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 }
 
+
 /* My block quote that is on the right side of the page */
 
+
 blockquote {
-	float: right;
 	width:300px;
 	height: 230px;
 	font-style:italic;
@@ -130,30 +147,17 @@ blockquote {
 	border-radius: 10px;
 	text-shadow: 1px 1px 2px;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
-	clear:both;
 	margin: 10px auto 10px auto;
+	float:right;
 }
 
 .clear {
 	clear: both;
 }	
 
-/* Headers Only */
-
-.headers {
-	color:#fc9;
-	background-color: #f63;
-	opacity: 0.8;
-	padding: inherit;
-	border-radius: 10px;
-	text-align: center;
-	border-style: groove;
-	text-shadow: 1px 1px 1px;
-	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
-	clear: both;
-}	
 
 /* Accomplishments at the Bottom of the Page */
+
 
 #accomplishments {
 	width:300px;
@@ -164,7 +168,10 @@ blockquote {
 	border-radius: 10px;
 	border-style: groove;
 	display: block;
+	margin: 10px auto 10px auto;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
+	float:left;
+	clear:both;
 }			
 
 
