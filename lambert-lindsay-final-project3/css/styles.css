@@ -27,7 +27,21 @@ a:visited {
 	text-align:center;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 2px;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+	font-weight: bold
 }	
+
+
+/* Gradient */
+
+#gradient {
+	background-image: -moz-linear-gradient(#48226d, #a081bd);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#48226d), to(#a081bd));
+	background-image: -webkit-linear-gradient(#48226d, #a081bd);
+	background-image: -o-linear-gradient(#48226d, #a081bd);
+	width:1020px;
+}
 
 /* Generic Body Styling */
 
@@ -41,7 +55,7 @@ body {
 	padding: 13px;
 	background-color: #99c;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
-}
+}	
 
 /* Sebastian's Birthday */
 
@@ -72,39 +86,25 @@ body {
 
 /* Page Navigation */
 
-#nav, {
+#nav {
+	width: 880px;
 	padding: 8px;
-	margin-right: 10px;
-	display:inline-block;
-	}	
+	margin: 18px auto 18px auto;
+	display: inline-block;
+}	
 
 
 /* Image Links */
 
-a:link {
-	color: #654;
-}
-a:hover {
-	color: #639;
-}
-a:active {
-	color: #f63;
-}
-a:visited {
-	color: #099;
-}
-
-.imagelinks {
-	width:300px;
-	height:400px;
-	border: 2px solid #301749;
-	overflow:auto;
-}
+figure img {
+	border: 2px solid #f63;
+	display: block;
+}	
 
 	
 /* Ordered List */ 
 
-#list {
+.list {
 	list-style-type: lower-roman;
 	list-style-position: inside;
 	border-radius: 10px;
@@ -119,18 +119,19 @@ blockquote {
 	height: 230px;
 	font-style:italic;
 	font-weight: bolder;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	line-height: 1.4em;
 	font-family:Helvetica, Verdana, serif;
 	background-color:#639;
 	color:#c9c;
-	margin:0px 0px 10px 10px;
 	padding:15px;
 	border-top:1px solid #666;
 	border-bottom:1px solid #666;
 	border-radius: 10px;
 	text-shadow: 1px 1px 2px;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
+	clear:both;
+	margin: 10px auto 10px auto;
 }
 
 .clear {
