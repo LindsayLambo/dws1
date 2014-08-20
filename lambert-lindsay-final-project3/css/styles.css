@@ -40,7 +40,7 @@ body {
 	font-size: 1.125em;
 	padding: 13px;
 	background-color: #99c;
-	box-shadow: 2px 2px 3px 3px rgb(48, 23, 73);
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 }
 
 /* Sebastian's Birthday */
@@ -54,7 +54,7 @@ body {
 	border:1px ridge #066;
 	border-radius: 10px;
 	text-shadow: 1px 1px 2px;
-	box-shadow: 2px 2px 3px 3px rgb(48, 23, 73);
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 }
 
 /* Container holding Content */
@@ -67,14 +67,14 @@ body {
 	background-color:#fff;
 	border-radius: 10px;
 	padding: inherit;
-	box-shadow: 2px 2px 3px 3px rgb(48, 23, 73);
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 }	
 
 /* Page Navigation */
 
-#nav {
+#nav, {
 	padding: 8px;
-	margin: 18px auto 18px auto;
+	margin-right: 10px;
 	display:inline-block;
 	}	
 
@@ -108,7 +108,7 @@ a:visited {
 	list-style-type: lower-roman;
 	list-style-position: inside;
 	border-radius: 10px;
-	box-shadow: 2px 2px 3px 3px rgb(48, 23, 73);
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 }
 
 /* My block quote that is on the right side of the page */
@@ -130,7 +130,7 @@ blockquote {
 	border-bottom:1px solid #666;
 	border-radius: 10px;
 	text-shadow: 1px 1px 2px;
-	box-shadow: 2px 2px 3px 3px rgb(48, 23, 73);
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 }
 
 .clear {
@@ -148,7 +148,7 @@ blockquote {
 	text-align: center;
 	border-style: groove;
 	text-shadow: 1px 1px 1px;
-	box-shadow: 2px 2px 3px 3px rgb(48, 23, 73);
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	clear: both;
 }	
 
@@ -163,7 +163,7 @@ blockquote {
 	border-radius: 10px;
 	border-style: groove;
 	display: block;
-	box-shadow: 2px 2px 3px 3px rgb(48, 23, 73);
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 }			
 
 
