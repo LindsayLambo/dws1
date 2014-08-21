@@ -4,20 +4,6 @@
 	src: url('fonts/AlexBrush-Regular.tff');
 }
 
-
-/* Title Only */
-
-#title {
-	font-size: 2em;
-	font-family: Alex Brush, Helvetica, serif;
-	text-align:center;
-	text-transform: uppercase;
-	text-shadow: 1px 1px 2px;
-	letter-spacing: 0.2em;
-	word-spacing: 1em;
-	font-weight: bold
-}	
-
 /* Links Setup for User Interaction */
 
 a:link {
@@ -33,10 +19,26 @@ a:visited {
 	color: #099;
 }
 
+/* Title Only */
+
+#title {
+	font-size: 2.5em;
+	font-family: "Alex Brush", Helvetica, serif;
+	text-align:center;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+	font-weight: bold
+}	
+
+
 
 /* Generic Body Styling Plus Gradient */
 
 body {
+	width:95%;
+	margin: 10px;
 	font-family: Georgia, Helvetica, serif;
 	border-radius: 10px;
 	font-weight: lighter;
@@ -44,6 +46,10 @@ body {
 	color:#639;
 	font-size: 1.125em;
 	padding: 13px;
+	background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+	background-image: url("images/baby-boy.png");
+	background-repeat: no-repeat;
+	background-position: center;
 	background-color: #99c;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	background: #a081bd; /* Old browsers */
@@ -54,7 +60,6 @@ body {
 	background: -ms-linear-gradient(top,  #a081bd 1%,#a081bd 17%,#a081bd 24%,#a081bd 24%,#a081bd 30%,#a081bd 30%,#a081bd 54%,#48226d 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #a081bd 1%,#a081bd 17%,#a081bd 24%,#a081bd 24%,#a081bd 30%,#a081bd 30%,#a081bd 54%,#48226d 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a081bd', endColorstr='#48226d',GradientType=0 ); /* IE6-9 */
-
 }	
 
 /* Sebastian's Birthday */
@@ -75,7 +80,7 @@ body {
 
 .container {
 	width: 950px;
-	margin: 18px auto 18px auto;
+	margin: 26px auto 26px auto;
 	color: #f63;
 	border: 2px solid #f63;
 	background-color:#fff;
@@ -88,7 +93,9 @@ body {
 /* Page Navigation */
 
 #nav {
-	display: inline-block;
+	display: block;
+	width:950px;
+	margin: 18px auto 18px auto;
 }	
 
 
@@ -129,13 +136,6 @@ figure img {
 
 
 
-.clear {
-	clear: both;
-}	
-
-
-
-
 /* My block quote that is on the bottom right of the page */
 
 
@@ -155,15 +155,21 @@ blockquote {
 	border-radius: 10px;
 	text-shadow: 1px 1px 2px;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
-	margin: 10px auto 10px auto;
+	margin: 100px auto 100px auto;
 	float:right;
-	display:inline;
+	display:block;
 	position: relative;
-	vertical-align: right bottom;
 }
 
 
-
+.column1, .column2 {
+	width:31.3%;
+	float:left;
+	margin:1%;
+	border: 2px solid #f63;
+	padding:20px;
+}	
+	
 
 /* Accomplishments at the Bottom of the Page */
 
@@ -178,13 +184,32 @@ blockquote {
 	padding:10px;
 	border-radius: 10px;
 	border-style: groove;
-	display: inline;
+	display: block;
 	margin: 10px auto 10px auto;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	float:left;
 	clear:both;
-	vertical-align: left bottom;
 }			
 
+#moreaccomplishments {
+	width:300px;
+	height:335px;
+	font-size: 1.5em;
+	font-weight: bolder;
+	color: #9cc;
+	background-color:#099;
+	padding:10px;
+	border-radius: 10px;
+	border-style: groove;
+	display: block;
+	margin: 10px auto 10px auto;
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
+	float:left;
+	clear:both;
+}			
 
-	
+#navb {
+	display: block;
+	width:950px;
+	margin: 18px auto 18px auto;
+}		
