@@ -4,6 +4,20 @@
 	src: url('fonts/AlexBrush-Regular.tff');
 }
 
+
+/* Title Only */
+
+#title {
+	font-size: 2em;
+	font-family: Alex Brush, Helvetica, serif;
+	text-align:center;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+	font-weight: bold
+}	
+
 /* Links Setup for User Interaction */
 
 a:link {
@@ -19,31 +33,8 @@ a:visited {
 	color: #099;
 }
 
-/* Title Only */
 
-#title {
-	font-size: 2em;
-	font-family: Alex Brush, Helvetica, serif;
-	text-align:center;
-	text-transform: uppercase;
-	text-shadow: 1px 1px 2px;
-	letter-spacing: 0.2em;
-	word-spacing: 1em;
-	font-weight: bold
-}	
-
-
-/* Gradient */
-
-#gradient {
-	background-image: -moz-linear-gradient(#48226d, #a081bd);
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#48226d), to(#a081bd));
-	background-image: -webkit-linear-gradient(#48226d, #a081bd);
-	background-image: -o-linear-gradient(#48226d, #a081bd);
-	width:1020px;
-}
-
-/* Generic Body Styling */
+/* Generic Body Styling Plus Gradient */
 
 body {
 	font-family: Georgia, Helvetica, serif;
@@ -55,6 +46,15 @@ body {
 	padding: 13px;
 	background-color: #99c;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
+	background: #a081bd; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a081bd 1%, #a081bd 17%, #a081bd 24%, #a081bd 24%, #a081bd 30%, #a081bd 30%, #a081bd 54%, #48226d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#a081bd), color-stop(17%,#a081bd), color-stop(24%,#a081bd), color-stop(24%,#a081bd), color-stop(30%,#a081bd), color-stop(30%,#a081bd), color-stop(54%,#a081bd), color-stop(100%,#48226d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #a081bd 1%,#a081bd 17%,#a081bd 24%,#a081bd 24%,#a081bd 30%,#a081bd 30%,#a081bd 54%,#48226d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #a081bd 1%,#a081bd 17%,#a081bd 24%,#a081bd 24%,#a081bd 30%,#a081bd 30%,#a081bd 54%,#48226d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #a081bd 1%,#a081bd 17%,#a081bd 24%,#a081bd 24%,#a081bd 30%,#a081bd 30%,#a081bd 54%,#48226d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #a081bd 1%,#a081bd 17%,#a081bd 24%,#a081bd 24%,#a081bd 30%,#a081bd 30%,#a081bd 54%,#48226d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a081bd', endColorstr='#48226d',GradientType=0 ); /* IE6-9 */
+
 }	
 
 /* Sebastian's Birthday */
@@ -128,7 +128,15 @@ figure img {
 }
 
 
-/* My block quote that is on the right side of the page */
+
+.clear {
+	clear: both;
+}	
+
+
+
+
+/* My block quote that is on the bottom right of the page */
 
 
 blockquote {
@@ -150,15 +158,11 @@ blockquote {
 	margin: 10px auto 10px auto;
 	float:right;
 	display:inline;
-	position: absolute;
-	top:10px;
-	right:100px;
-	vertical-align: bottom;
+	position: relative;
+	vertical-align: right bottom;
 }
 
-.clear {
-	clear: both;
-}	
+
 
 
 /* Accomplishments at the Bottom of the Page */
@@ -171,6 +175,7 @@ blockquote {
 	font-weight: bolder;
 	color: #9cc;
 	background-color:#099;
+	padding:10px;
 	border-radius: 10px;
 	border-style: groove;
 	display: inline;
@@ -178,10 +183,7 @@ blockquote {
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	float:left;
 	clear:both;
-	position: absolute;
-	bottom:25px;
-	left:100px;
-	vertical-align: bottom;
+	vertical-align: left bottom;
 }			
 
 
