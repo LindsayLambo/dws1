@@ -1,4 +1,4 @@
-/* Lindsay Lambert Project 3 DWS1 8/21/14 */
+/* Lindsay Lambert Project 4 DWS1 8/28/14 */
 @font-face {
 	font-family: 'Alex Brush';
 	src: url('fonts/AlexBrush-Regular.tff');
@@ -84,6 +84,7 @@ body {
 	padding: inherit;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	clear:both;
+	overflow:auto;
 }	
 
 /* Page Navigation */
@@ -181,7 +182,7 @@ blockquote {
 	border-radius: 10px;
 	border-style: groove;
 	display: block;
-	margin: 1% auto 1% auto;
+	margin: 1.3% 33% 1.3% auto;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	float:left;
 	clear:both;
@@ -198,16 +199,16 @@ blockquote {
 	border-radius: 10px;
 	border-style: groove;
 	display: block;
-	margin: 1% auto 1% auto;
+	margin: 1.3% auto 1.3% 33%;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	float:left;
-	clear:both;
 }			
 
 #navb {
 	display: block;
 	width:75%;
-	margin: 13% auto 13% auto;
+	margin: 1.3% auto 1.3% auto;
+	clear:both;
 }		
 
 
