@@ -69,6 +69,7 @@ body {
 	border:1px ridge #066;
 	border-radius: 10px;
 	text-shadow: 1px 1px 2px;
+	text-align:left;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 }
 
@@ -98,7 +99,7 @@ nav {
 /* Headers Only */
 
 
-.headers {
+.headers, article {
 	color:#fc9;
 	background-color: #f63;
 	opacity: 0.8;
@@ -119,7 +120,9 @@ figure img {
 	display: block;
 }	
 
-
+figure img:hover {
+	border: 3px solid #639;
+}	
 
 
 /* My block quote that is on the bottom right of the page */
@@ -143,19 +146,22 @@ aside {
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	margin: 1.5% auto 1.5% auto;
 	display:block;
-	position: absolute;
 }
 
 
 .column1, .column2 {
 	width:33%;
-	float:left;
 	margin:1%;
 	border: 2px solid #f63;
 	padding:20px;
-	clear:both;
 }	
-	
+
+
+
+.column1:hover, .column2:hover {
+	border: 3px groove #f63;
+}	
+
 
 /* Accomplishments at the Bottom of the Page */
 
@@ -173,14 +179,27 @@ aside {
 	display: block;
 	margin: 1.3% 33% 1.3% auto;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
-	float:left;
-	clear:both;
 }			
 
-
+table {
+	width:33%;
+	background-color:#639;
+	color:#c9c;
+	font-weight: bolder;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	padding:15px;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+	border-radius: 10px;
+	text-shadow: 1px 1px 2px;
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
+	margin: 1.5% auto 1.5% auto;
+	display:block;
+}	
 			
 
-table, form, article {
+form {
 	
 	width:300px;
 	border-spacing:1px 1px;
@@ -196,8 +215,17 @@ table, form, article {
 	color:#9cc;
 	position:relative;
 	float:left;
-	clear:both;
 }	
 
+footer {
+	width: 75%;
+	margin: 1.5% auto 1.5% auto;
+	color: #f63;
+	border: 2px solid #f63;
+	background-color:#fff;
+	border-radius: 10px;
+	padding: 1.5%;
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
+}	
 
 
