@@ -217,7 +217,7 @@ table {
 	border-spacing:0;
 }	
 
-th#schedule {
+h2#schedule {
 	padding: 5px auto 5px auto;
 	text-transform:uppercase;
 	font-size:100%;
