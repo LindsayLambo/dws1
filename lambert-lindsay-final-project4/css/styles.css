@@ -22,7 +22,7 @@ a:visited {
 /* Title Only */
 
 #title {
-	font-size: 2.5em;
+	font-size: 2em;
 	font-family: "Alex Brush", Helvetica, serif;
 	text-align:center;
 	text-transform: uppercase;
@@ -62,7 +62,7 @@ body {
 
 #birthday {
 	display:block;
-	font-size: 1.5em;
+	font-size: 100%;
 	padding: 10px;
 	background-color: #099;
 	color: #9cc;
@@ -74,22 +74,21 @@ body {
 
 /* Container holding Content */
 
-.container {
+.container, .formcontrols {
 	width: 75%;
 	margin: 1.5% auto 1.5% auto;
 	color: #f63;
 	border: 2px solid #f63;
 	background-color:#fff;
 	border-radius: 10px;
-	padding: inherit;
+	padding: 1.5%;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	clear:both;
-	overflow:auto;
 }	
 
 /* Page Navigation */
 
-#nav {
+nav {
 	display: block;
 	width: 75%;
 	margin: 1.3% auto 1.3% auto;
@@ -109,7 +108,6 @@ body {
 	border-style: groove;
 	text-shadow: 1px 1px 1px;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
-	clear: both;
 }	
 
 
@@ -121,27 +119,18 @@ figure img {
 	display: block;
 }	
 
-	
-/* Ordered List */ 
-
-.list {
-	list-style-type: lower-roman;
-	list-style-position: inside;
-	border-radius: 10px;
-	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
-}
 
 
 
 /* My block quote that is on the bottom right of the page */
 
 
-blockquote {
-	width:35%;
+aside {
+	width:33%;
 	height: 23%;
 	font-style:italic;
 	font-weight: bolder;
-	font-size: 1.25em;
+	font-size: 1.1em;
 	line-height: 1.4em;
 	font-family:Helvetica, Verdana, serif;
 	background-color:#639;
@@ -153,9 +142,8 @@ blockquote {
 	text-shadow: 1px 1px 2px;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	margin: 1.5% auto 1.5% auto;
-	float:right;
 	display:block;
-	position: relative;
+	position: absolute;
 }
 
 
@@ -165,16 +153,17 @@ blockquote {
 	margin:1%;
 	border: 2px solid #f63;
 	padding:20px;
+	clear:both;
 }	
 	
 
 /* Accomplishments at the Bottom of the Page */
 
 
-#accomplishments {
+.accomplishments {
 	width:33%;
 	height:33%;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	font-weight: bolder;
 	color: #9cc;
 	background-color:#099;
@@ -188,33 +177,27 @@ blockquote {
 	clear:both;
 }			
 
-#moreaccomplishments {
-	width:33%;
-	height:35%;
-	font-size: 1.5em;
-	font-weight: bolder;
-	color: #9cc;
-	background-color:#099;
-	padding:10px;
+
+			
+
+table, form, article {
+	
+	width:300px;
+	border-spacing:1px 1px;
+	letter-spacing:1.2em;
+	padding:10px auto 10px auto;
+	border:1px 2px 2px 1px solid #9cc;
+	text-transform: uppercase;
 	border-radius: 10px;
-	border-style: groove;
-	display: block;
-	margin: 1.3% auto 1.3% 33%;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
+	font-size:100%;
+	text-align:right;
+	background-color:#099;
+	color:#9cc;
+	position:relative;
 	float:left;
-}			
-
-#navb {
-	display: block;
-	width:75%;
-	margin: 1.3% auto 1.3% auto;
 	clear:both;
-}		
-
-
-#pattern {
-	background-image: url("images/orangestarpatternfincopy.jpg");
-	background-repeat: repeat-x;
-	background-position: bottom;
-	padding:15px;
 }	
+
+
+

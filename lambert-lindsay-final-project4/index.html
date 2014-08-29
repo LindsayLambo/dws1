@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<!-- Lindsay Lambert  8/21/14 Project 3 DWS1 --> 
+<!-- Lindsay Lambert  8/28/14 Project 4 DWS1 --> 
 
 <html>
 	<head>
@@ -17,11 +17,10 @@
 				<li><a href="#tenreasons">10 Reasons I Love You</a></li> 
 				<li><a href="#faveactivities">Favorite Activities</a></li>
 				<li><a href="#gallery">Photo Gallery</a></li>
-				<li><a href="#gallery">Photo Gallery</a></li>
 				<li><a href="#accomplishments">Your Accomplishments</a></li>
 			</ul
 		</nav>		
-		
+	</header>	
 <!-- Content Of the Page -->	     <!-- Gradient -->
 	
 	<body>
@@ -33,21 +32,20 @@
 		
 
 <!-- Ordered List of Reasons I Love Sebastian -->
-		<div>
-			<h2 class="headers container">10 Reasons I Love You</h2>
-			<ol id="tenreasons" class="container list">
-				<li>Your <em>beautiful</em> smile.</li>	
-				<li>The way you giggle.</li>
-				<li>How you're all snuggly when you wake up.</li>
-				<li>Your <strong>super-baby</strong> strength.</li>
-				<li>Your intellect and personality.</li>
-				<li>The way you love to entertain.</li>
-				<li><em>All</em> the words you say, regardless of the language.</li>
-				<li>Because you are so precious to me.</li>
-				<li>Because you have filled my life with such amazing days while we grow <strong>together</strong>.</li>
-				<li>And, finally, because I am the luckiest mom in the world to have you!</li>
-			</ol>
-		</div>
+		<table class="table">
+			<th class="headers container">10 Reasons I Love You</th>
+			<tr class="container">
+				<td>Your <em>beautiful</em> smile.</td>	
+				<td>The way you giggle.</td>
+				<td>How you're all snuggly when you wake up.</td>
+				<td>Your <strong>super-baby</strong> strength.</td>
+				<td>Your intellect and personality.</td>
+				<td>The way you love to entertain.</td>
+				<td><em>All</em> the words you say, regardless of the language.</td>
+				<td>Because you are so precious to me.</td>
+				<td>Because you have filled my life with such amazing days while we grow <strong>together</strong>.</td>
+				<td>And, finally, because I am the luckiest mom in the world to have you!</td>
+		</table>
 <!-- My Favorite Activities to Share With You -->
 
 		<div>
@@ -64,40 +62,40 @@
 
 <!-- Photo Gallery -->	
 		
-		<div>
-			<h2 class="headers container" id="gallery">Photos of Sebastian</h2>
+		<article>
+			<h2 class="headers container">Photos of Sebastian</h2>
 			<figure class="container">
-				<a href="images/sleepydukebazellarge.jpg" class="imagelinks"><img src="images/sleepydukebazel.jpg" alt="Sebastian Peacefully Sleeping"/></a>
+				<a href="images/sleepydukebazellarge.jpg"><img src="images/sleepydukebazel.jpg" alt="Sebastian Peacefully Sleeping"/></a>
 				<figcaption>Sebastian is sleeping so peacefully...
 				</figcaption>
 			</figure>
 			<figure class="container">
-				<a href="images/halloweenbazel.jpg" class="imagelinks"><img src="images/halloweenbazelsmall.jpeg" alt="Sebastian in Halloween Attire"/></a>
+				<a href="images/halloweenbazel.jpg"><img src="images/halloweenbazelsmall.jpeg" alt="Sebastian in Halloween Attire"/></a>
 				<figcaption>Sebastian is rocking his little daytime Halloween outfit!
 				</figcaption>
 			</figure>	
 			<figure class="container">	
-				<a href="images/bazel'maters.jpg" class="imagelinks"><img src="images/bazelmaters.jpg"/></a>
+				<a href="images/bazel'maters.jpg"><img src="images/bazelmaters.jpg"/></a>
 				<figcaption>Bazel gets to examine giant, home-grown tomatoes for the first time! He loves them!
 				</figcaption>
 			</figure>
 			<figure class="container">	
-				<a href="images/Sstickingouttongue.jpg" class="imagelinks"><img src="images/stickingouttongueSmall.jpg" alt="Sebastian Sticking His Tongue Out"/></a>
+				<a href="images/Sstickingouttongue.jpg"><img src="images/stickingouttongueSmall.jpg" alt="Sebastian Sticking His Tongue Out"/></a>
 				<figcaption>Sebastian is being silly and the life of the party, sticking his tongue out!
 				</figcaption>
 			</figure>	
-		</div>		
+		</article>		
 
 
 <!-- Sebastian's Accomplishments, So Far -->		
 
 		<section>	
 			<h3 class="headers container">Your Accomplishments So Far</h3>
-			<p class="column1" id="accomplishments">You have learned to crawl, walk, and run.<br />
+			<p class="column1 accomplishments">You have learned to crawl, walk, and run.<br />
 			 You can say words, express your emotions, and understand what is
 			  going on around you.<br /> You have eight teeth, so far, and you love 
 			  to use them!<br /> You are incredibly smart and love to learn.</p>
-			<p class="column2" id="moreaccomplishments">It is amazing how much you learn each day! <br />
+			<p class="column2 accomplishments">It is amazing how much you learn each day! <br />
 			Now, you are saying more words, running so <br />fast, moving furniture around, starting to gain 
 			interest in sports, and making friends of your own. I love waking up to new days with you, so we
 			can enjoy everything!</p> 
@@ -105,9 +103,21 @@
 		  
 		  
 		  
-		  
-		  
-		  
+		<article>
+			<p class="formcontrols">
+Sebastian, do you like your very own website I am attempting to build for you??<br />
+				<label><input type="radio" name="rating" value="yes" /> Yes</label>
+				<label><input type="radio" name="rating" value="no" /> No</label>
+				<label><input type="radio" name="rating" value="maybe" /> Maybe</label>
+			</p>
+			<p class="formcontrols">
+      			<label for="textarea">Textarea</label><br />
+      			<textarea id="textarea" name="textarea" rows="5" placeholder="What do you think of SebastianOliver.com?"></textarea>
+    		</p>
+		</article>
+		
+		
+				  
 <!-- My Block Quote on the Right Side of the Page -->		
 		
 		
@@ -124,7 +134,7 @@
 		
 <!-- Link for Top of Page -->		
 		
-		<footer id="navb" class="container">
+		<footer class="container">
 			<ul>
 				<li><a href="#title">Top of Page</a></li>
 			</ul>	
