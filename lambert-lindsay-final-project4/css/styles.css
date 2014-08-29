@@ -63,8 +63,23 @@ header, section, footer, aside, nav, article, figure, figcaption {
 	display:block;
 }	
 
-h1, h2, h3 {
+h2, h3 {
 	font-weight: bold;
+	width: 75%;
+	margin: 1.5% auto 1.5% auto;
+	border: 2px groove #f63;
+	border-radius: 10px;
+	padding: 1.5%;
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
+	display:block;
+	color:#fc9;
+	background-color: #f63;
+	opacity: 0.9;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	text-shadow: 1px 1px 1px;
+	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 }	
 
 
@@ -77,10 +92,11 @@ h1, h2, h3 {
 	background-color: #099;
 	color: #9cc;
 	border:1px ridge #066;
-	border-radius: inherit;
+	border-radius: 10px;
 	text-shadow: 1px 1px 2px;
 	text-align:left;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
+	
 }
 
 /* Container holding Content */
@@ -99,8 +115,8 @@ h1, h2, h3 {
 
 /* Page Navigation */
 
-nav {
-	display: block;
+nav ul li {
+	display:inline;
 	width: 75%;
 	margin: 1.3% auto 1.3% auto;
 }	
@@ -139,8 +155,7 @@ figure img:hover {
 
 
 aside {
-	width:33%;
-	height: 23%;
+	width:60%;
 	font-style:italic;
 	font-weight: bolder;
 	font-size: 1.1em;
@@ -148,21 +163,18 @@ aside {
 	font-family:Helvetica, Verdana, serif;
 	background-color:#639;
 	color:#c9c;
-	border-top:1px solid #666;
-	border-bottom:1px solid #666;
 	border-radius: 10px;
 	text-shadow: 1px 1px 2px;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	margin: 1.5% auto 1.5% auto;
 	display:block;
-	width:33%;
 	border: 2px solid #f63;
 	padding:2px 2px 2px 20px;
 }
 
 
 
-aside:hover, .accomplishments:hover {
+aside:hover, .accomplishments:hover, table:hover, form:hover {
 	border: 3px groove #f63;
 }	
 
@@ -186,13 +198,15 @@ aside:hover, .accomplishments:hover {
 }			
 
 table {
-	width:33%;
+	width:95%;
 	background-color:#639;
 	color:#c9c;
 	font-weight: bolder;
 	font-size: 1.1em;
 	line-height: 1.4em;
 	padding:15px;
+	letter-spacing: 1.2em;
+	text-align:left;
 	border-top:1px solid #666;
 	border-bottom:1px solid #666;
 	border-radius: 10px;
@@ -200,14 +214,34 @@ table {
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	margin: 1.5% auto 1.5% auto;
 	display:block;
+	border-spacing:0;
 }	
-			
+
+th#schedule {
+	padding: 5px auto 5px auto;
+	text-transform:uppercase;
+	font-size:100%;
+}	
+
+
+.even {
+	color:#639;
+	background-color:#c9c;
+}
+
+
+table:hover {
+	border: 3px groove #c9c;
+}		
+
+
+
 
 form {
-	
+	margin:10px;
 	width:300px;
 	border-spacing:1px 1px;
-	letter-spacing:1.2em;
+	letter-spacing:1em;
 	padding:10px auto 10px auto;
 	border:1px 2px 2px 1px solid #9cc;
 	text-transform: uppercase;
@@ -220,6 +254,8 @@ form {
 	position:relative;
 	float:left;
 }	
+
+
 
 footer {
 	width: 75%;
