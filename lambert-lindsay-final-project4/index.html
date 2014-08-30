@@ -34,7 +34,7 @@
 <!-- Ordered List of Reasons I Love Sebastian -->
 		<article class="container">
 			<h1 class="headers container">10 Reasons I Love You</h1>
-			<ul class="container">
+			<ul id="reasons" class="container">
 				<li>Your <em>beautiful</em> smile.</li>	
 				<li>The way you giggle.</li>
 				<li>How you're all snuggly when you wake up.</li>
@@ -196,12 +196,12 @@ Sebastian, do you like your very own website I am attempting to build for you??<
     		</p>
     		
 				<form action="mailto:LindsayLambo@fullsail.edu"> 
-					<p>Please enter your email address:</p>
+					<label for="email">Please enter your email address:</label>
 					<input type="email" name="email" />
 					<input type="submit" value="Submit" />
 				</form>
 		</form>
-    		
+    	<form>	
     		<form action="mailto:LindsayLambo@fullsail.edu" method="post">
     		<p><a href="mailto:LindsayLambo@fullsail.edu">Email Lindsay</a></p>
 			<label for="username">Username:</label>
@@ -210,15 +210,14 @@ Sebastian, do you like your very own website I am attempting to build for you??<
 			<input type="password" name="password" required="required" />
 			<input type="submit" value="Submit" />
 			</form>
-    		
-    		
-		</form>
+    	</form>
 		
 		
 		<article>
 			<form class="formcontrols" action="http://www.google.com/profile.php">
-				<p class="formcontrols">Do you want to play any of the following sports?? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
-				<select name="sports" size="3" multiple="multiple">
+				<label class="formcontrols">Do you want to play any of the following sports?? (You can select more than one option by 
+				holding down control on a PC or command key on a Mac while selecting different options.)</label>
+				<select name="sports" size="4" multiple="multiple">
 					<option value="football" selected="selected">Football</option>
 					<option value="tennis">Tennis</option>
 					<option value="basketball" selected="selected">Basketball</option>
