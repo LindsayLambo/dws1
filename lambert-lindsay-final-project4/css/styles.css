@@ -242,6 +242,7 @@ figcaption {
 hgroup {
 	margin: 35px 20px 20px 20px;
 	display:block;
+	border-bottom: 1px solid #fff;
 }
 
 
@@ -250,7 +251,7 @@ form {
 	margin:10px;
 	width:300px;
 	border-spacing:1px 1px;
-	letter-spacing:1em;
+	letter-spacing:100%;
 	padding:10px auto 10px auto;
 	border:1px 2px 2px 1px solid #9cc;
 	text-transform: uppercase;
@@ -262,9 +263,14 @@ form {
 	color:#9cc;
 }	
 
+.submit {
+	text-align: right;
+	
+}
 
-
-.formcontrols
+.formcontrols {
+	border-bottom: 1px solid #efefef;
+}	
 
 footer {
 	width: 75%;
