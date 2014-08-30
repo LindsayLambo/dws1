@@ -66,7 +66,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
 h2, h3 {
 	font-weight: bold;
 	width: 75%;
-	margin: 1.5% auto 1.5% auto;
+	margin: 20px;
 	border: 2px groove #f63;
 	border-radius: 10px;
 	padding: 1.5%;
@@ -234,6 +234,15 @@ table:hover {
 	border: 3px groove #c9c;
 }		
 
+figcaption {
+	text-align:left;
+}	
+
+
+hgroup {
+	margin: 35px 20px 20px 20px;
+	display:block;
+}
 
 
 
@@ -251,11 +260,11 @@ form {
 	text-align:right;
 	background-color:#099;
 	color:#9cc;
-	position:relative;
-	float:left;
 }	
 
 
+
+.formcontrols
 
 footer {
 	width: 75%;
