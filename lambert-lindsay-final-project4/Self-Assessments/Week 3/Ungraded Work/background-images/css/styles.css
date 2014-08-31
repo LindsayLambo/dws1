@@ -18,7 +18,7 @@ h3 {
 }			
 	
 		
-ul#navigation {
+#navigation ul {
 	width:625px;
 	list-style-type: none;
 	text-align: center;
@@ -28,7 +28,7 @@ ul#navigation {
 	margin:0 auto 0 auto;
 }
 
-li#navigation {
+#navigation li {
 	margin:0 3px 0 3px;
 	display:inline;
 }	
@@ -72,7 +72,7 @@ figure img {
 
 	
 figcaption {
-	background-image: url("images/icon.png");
+	background-image: url("../images/icon.png");
 	background-repeat:no-repeat;
 	padding:5px 0 0 25px;
 }		
@@ -106,7 +106,7 @@ a:hover, a#current-page {
 	background-color: #ffffff;
 }
 
-img#content {
+#content img {
 	float:left;
 	padding:20px;
 }	

@@ -18,7 +18,7 @@ h3 {
 }			
 	
 		
-ul#navigation {
+#navigation ul {
 	width:625px;
 	list-style-type: none;
 	text-align: center;
@@ -28,8 +28,8 @@ ul#navigation {
 	margin:0 auto 0 auto;
 }
 
-li#navigation {
-	margin:0 3px 0 3px;
+#navigation li {
+	margin:2px 3px 2px 3px;
 	display:inline;
 }	
 
@@ -47,6 +47,7 @@ a {
 #content {
 	width:600px;
 	border: 2p solid #000;
+	margin: 10px auto 10px auto:
 	overflow:auto;
 }
 
@@ -61,7 +62,7 @@ a:hover, a#current-page {
 	background-color: #ffffff;
 }
 
-img#content {
+#content img {
 	float:left;
 	padding:20px;
 }	

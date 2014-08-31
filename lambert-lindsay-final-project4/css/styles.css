@@ -47,7 +47,7 @@ body {
 	font-size: 1.125em;
 	padding: 1.5%;
 	background-color: #99c;
-	background-image: url ("images/light_grey.png");
+	background-image: url("../images/light_grey.png");
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
 	background: #a081bd; /* Old browsers */
 	background: -moz-linear-gradient(top,  #a081bd 1%, #a081bd 17%, #a081bd 24%, #a081bd 24%, #a081bd 30%, #a081bd 30%, #a081bd 54%, #48226d 100%); /* FF3.6+ */
@@ -61,6 +61,7 @@ body {
 
 header, section, footer, aside, nav, article, figure, figcaption {
 	display:block;
+	clear:both;
 }	
 
 h2, h3 {
@@ -225,8 +226,13 @@ table {
 	border-spacing:0;
 }	
 	
-
-
+aside {
+	width: 290px;
+	float: right;
+	margin:10px;
+}
+	
+	
 .even {
 	color:#639;
 	background-color:#c9c;
@@ -247,15 +253,17 @@ hgroup {
 	border-bottom: 1px solid #fff;
 }
 
-
+#id schedule {
+	clear:both;
+}	
 
 form {
 	margin:10px;
 	width:300px;
 	border-spacing:1px 1px;
 	letter-spacing:100%;
-	padding:10px auto 10px auto;
-	border:1px 2px 2px 1px solid #9cc;
+	padding:10px;
+	border:2px solid #9cc;
 	text-transform: uppercase;
 	border-radius: 10px;
 	box-shadow: 1px 2px 3px 3px rgb(48, 23, 73);
@@ -263,12 +271,8 @@ form {
 	text-align:left;
 	background-color:#099;
 	color:#9cc;
+
 }	
-/* 
-form p {
-	float:left;
-}	
-*/
 
 
 .submit {
