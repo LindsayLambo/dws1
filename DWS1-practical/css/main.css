@@ -8,9 +8,29 @@ body {
 	width: 960px;
 	background: #797267;
 }
-  
+banner {
+	width:890px;
+	height:220px;
+	background-image:url("images/banner.jpg");
+	background-repeat:no-repeat;
+}
+
+
+#main_content {
+	width:960px;
+	background-image:url("images/main-content-bg.jpg");
+	background-repeat:no-repeat;
+}
+	
+
+#first {
+	margin-bottom:77px;
+	
+	  
 header {
 	height:210px;
+	color:#423b23;
+	padding:20px;
 }	
 
 nav {
@@ -19,5 +39,47 @@ nav {
 
 #main_content {
 	width: 890px;
+	color:#423b23;
 }	
 
+h2 {
+	font-size: 1.5em;
+	color:#423b2e;
+	border-bottom: 1px solid #fff;
+	margin:10px;
+	clear:both;
+}	
+
+.column {
+	width:250px;
+	padding:34px;
+	float:left;
+	padding-bottom:92px;
+}	
+
+.page-flip {
+	background-image:url("images/page-flip.gif");
+	background-repeat:no-repeat;
+	margin:45px;
+	padding:25px;
+}	
+
+
+footer {
+	color:#423b23;
+	font-size: 0.917em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
