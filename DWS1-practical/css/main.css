@@ -25,9 +25,16 @@ body {
 }
 	
 
-
+h1 {
+	width:317px;
+	height:71px;
+	background-image: url("../images/logo.gif");
+	background-repeat: no-repeat;
+	margin:15px 10px 15px 25px;
+}	
 	  
 header {
+	width:960px;
 	height:210px;
 	color:#423b23;
 	padding:5px;
@@ -40,12 +47,13 @@ nav {
 	width: 277px;
 	display:inline;
 	margin: 10px;
+	float:right;
 }	
 
 
 nav li {
 	display:inline;
-	margin:10px;
+	margin:2px;
 }
 
 
@@ -68,12 +76,12 @@ h2 {
 	float:left;
 	padding-bottom:92px;
 	color:#423b23;
+	margin:10px;
 }	
 
 
 section {
 	width:250px;
-	clear:both;
 }	
 
 
@@ -81,7 +89,7 @@ section {
 .page-flip {
 	background-image:url("../images/page-flip.gif");
 	background-repeat:no-repeat;
-	margin:45px;
+	margin:5px;
 	padding:25px;
 	color:#423b23;
 	
