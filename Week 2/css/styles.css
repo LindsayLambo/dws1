@@ -1,11 +1,23 @@
+/*     Lindsay Lambert    Project 2    10/10/14      */
+/*     Rules for the body of the html page     */
 body {
 	font-family: Georgia, Times, serif;
 	background-color: #b59d69;
 	color: #8a3547;
 	border-radius: 10px;
 	padding: 5px;
-	margin: 5px;
+	margin: 5px auto;
 }
+
+/*      Adding Web Font     */
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(NotoSans-Bold.ttf);
+}
+
+/*     Styling Links     */
+
 a:link {
 	color: #8a3547;
 	text-decoration: none;
@@ -22,42 +34,127 @@ a:active {
 	text-decoration: underline;
 }
 
-h1, h2, h3 {
+/*     Styling Headers     */
+
+h1, h2, h3, h4 {
+	font-family: 'Noto Sans', Georgia, serif;
+	width: 300px;
 	color: #8a3547;
 	background-color: #ffae6d;
 	border-radius: 10px;
 	padding: 5px;
-	margin: 5px;
+	margin: 5px auto;
+	text-align: center;
+	text-shadow: 1px 2px 1px #666;
+	border: 2px solid #8a3547;
 }
 
+/*     Styling Anchor Elements     */
+
+a {
+	text-align: left;
+}
+
+/*     Styling Paragraphs     */
+
 p {
+	width: 400px;
 	color: #afe55a;
 	background-color: #b59d69;
+	opacity: 0.8;
 	border-radius: 10px;
 	padding: 5px;
-	margin: 5px;
+	margin: 5px auto;
+	border: 2px solid #000;
+	text-align: center;
 }	
 
+/*     Styling Unordered Lists     */
+
 ul {
+	width: 350px;
 	list-style: inside circle;
 	color: #9a3e3d;
 	background-color: #ffae6d;
 	border-radius: 10px;
 	padding: 5px;
-	margin: 5px;
+	margin: 5px auto;
+	text-align: center;
+	border: 2px solid #8a3547;
 }	
+
+/*     Styling Ordered Lists     */
 
 ol {
-	color: 8a3547;
+	width: 400px;
+	color: #8a3547;
 	list-style: inside lower-roman;
+	margin: 5px auto;
+	padding: 5px;
+	text-align: center;
 }	
 
-img {
-	border:none;
-	border-radius: 10px;
+/*     Styling Figure Elements     */
+
+figure {
+	width: 500px;
+	margin: 10px auto;
+	padding: 10px;
+	border: 2px inset #8a3547;
+	box-shadow: 5px 5px 5px #000;
+	text-align: center;
 }
 
+/*     Styling Images     */
+
+img {
+	height: 200px;
+	width: 300px;
+	border:none;
+	border-radius: 10px;
+	margin: 10px auto;
+	padding: 5px;
+	display: block;
+}
+
+/*     Styling List Items with the class descriptions     */
+
 li.descriptions {
-		list-style-type:none;
-		border-radius: 10px;
-}			
+	list-style-type:none;
+	border-radius: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1.7em;
+	text-align: left;
+}	
+
+/*     Styling Unordered List with id sidedishes     */
+
+ul#sidedishes {
+	width: 265px;
+	margin: 10px auto;
+	font-size: 1.5em;
+	font-style: oblique;
+	line-height: 2em;
+	text-align: left;	
+}
+
+/*     Styling the unordered list with an id of entreelist     */
+
+ol#entreelist {
+	text-align: left;
+	width: 700px;
+	margin: 5px auto;
+	padding: 10px;
+	border: 2px solid #8a3547;
+}	
+
+/*     Styling Global Links     */
+
+ul#links {
+	border: 2px solid #000;
+	text-align: left;
+}
+
+
+		
