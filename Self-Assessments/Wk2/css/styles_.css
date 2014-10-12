@@ -1,0 +1,47 @@
+body { 
+	font-family: Georgia, Times, serif;
+	background-color: #8a3547;
+	
+}
+
+h1 {
+	width: 300px;
+	text-align: center;
+	color: #ffae6d;
+	background-color: #b59d69;
+}
+
+p#four {
+	width: 300px;
+	text-align:center;
+	color: #ffae6d;
+	background-color: #afe55a;
+}
+	
+p#three {
+	width: 300px;
+	text-align: center;
+	color: #b59d69;
+	background-color: #ffae6d;
+}
+
+p#two {
+	width: 300px;
+	text-align: center;
+	color: #ffae6d;
+	background-color:#9a3e3d;
+}
+	
+p#one {
+	width: 300px;
+	text-align: center;
+	color: #9a3e3d;
+	background-color: #ffae6d;
+}
+
+p#zero {
+	width: 300px;
+	text-align: center;
+	color: #afe55a;
+	background-color: #b59d69;
+}	
