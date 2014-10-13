@@ -1,3 +1,5 @@
-https://github.com/LindsayLambo/dws1/tree/gh-pages/Week%201
 
-http://lindsaylambo.github.io/dws1/Week%201/index.html
+
+https://github.com/LindsayLambo/dws1/tree/gh-pages/Week%202
+
+http://lindsaylambo.github.io/dws1/Week%202/index.html

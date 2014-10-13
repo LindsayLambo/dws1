@@ -65,8 +65,7 @@ p {
 	background-color: #b59d69;
 	opacity: 0.8;
 	border-radius: 10px;
-	padding: 5px;
-	margin: 5px auto;
+	padding: 10px;
 	border: 2px solid #000;
 	text-align: center;
 }	
@@ -79,8 +78,7 @@ ul {
 	color: #9a3e3d;
 	background-color: #ffae6d;
 	border-radius: 10px;
-	padding: 5px;
-	margin: 5px auto;
+	padding: 10px;
 	text-align: center;
 	border: 2px solid #8a3547;
 }	
@@ -92,7 +90,7 @@ ol {
 	color: #8a3547;
 	list-style: inside lower-roman;
 	margin: 5px auto;
-	padding: 5px;
+	padding: 10px;
 	text-align: center;
 }	
 
@@ -100,7 +98,6 @@ ol {
 
 figure {
 	width: 500px;
-	margin: 10px auto;
 	padding: 10px;
 	border: 2px inset #8a3547;
 	box-shadow: 5px 5px 5px #000;
@@ -114,7 +111,6 @@ img {
 	width: 300px;
 	border:none;
 	border-radius: 10px;
-	margin: 10px auto;
 	padding: 5px;
 	display: block;
 }
@@ -134,7 +130,6 @@ li.descriptions {
 
 ul#sidedishes {
 	width: 265px;
-	margin: 10px auto;
 	font-size: 1.5em;
 	font-style: oblique;
 	line-height: 2em;
@@ -146,7 +141,6 @@ ul#sidedishes {
 ol#entreelist {
 	text-align: left;
 	width: 700px;
-	margin: 5px auto;
 	padding: 10px;
 	border: 2px solid #8a3547;
 }	
@@ -159,5 +153,7 @@ ul#links {
 	background-color: #ffae6d;
 }
 
-
+div {
+	margin: 10px auto;
+}	
 		
