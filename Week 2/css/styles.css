@@ -149,8 +149,8 @@ ol#entreelist {
 
 ul#links {
 	border: 2px solid #000;
-	text-align: left;
 	background-color: #ffae6d;
+	display: inline-block;
 }
 
 div {

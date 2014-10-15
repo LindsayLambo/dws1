@@ -76,6 +76,7 @@ a:hover, a#current-page {
 #gallery_content {
 	width: 500px;
 	margin: 20px auto;
+	overflow: auto;
 }
 
 .entry {
