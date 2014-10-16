@@ -58,13 +58,14 @@ h1, h2, h3, h4 {
 	padding: 1%;
 	text-align: center;
 	text-shadow: 1px 2px 1px #666;
-	border: 1% solid #8a3547;
+	border: 2px solid #8a3547;
 	margin: 2% auto;
 }
 
 /*     Styling Anchor Elements     */
 
 a {
+	width: 30%;
 	text-decoration: none;
 	text-align: left;
 	display: inline;
@@ -81,7 +82,7 @@ p {
 	opacity: 0.8;
 	border-radius: 10px;
 	padding: 1%;
-	border: 1% solid #000;
+	border: 2px solid #000;
 	text-align: center;
 	margin: 1% auto;
 }	
@@ -96,7 +97,7 @@ ul {
 	border-radius: 10px;
 	padding: 1%;
 	text-align: left;
-	border: 2% solid #8a3547;
+	border: 2px solid #8a3547;
 	display: inline-block;
 	margin: 2% auto;
 }	
@@ -118,12 +119,12 @@ ol {
 figure {
 	width: 50%;
 	padding: 2%;
-	border: 2% inset #8a3547;
+	border: 3px inset #8a3547;
 	box-shadow: 5px 5px 5px #000;
 	text-align: center;
 	float: right;
 	clear: both;
-	border: 1% solid #8a3547;
+	border: 2px solid #8a3547;
 }
 
 
@@ -183,7 +184,7 @@ li.descriptions {
 	text-align: left;
 	width: 70%;
 	padding: 2%;
-	border: 1% solid #8a3547;
+	border: 2px solid #8a3547;
 	background-color: #b59d69;
 	clear:both;
 }	
@@ -191,7 +192,7 @@ li.descriptions {
 /*     Styling Global Links     */
 
 ul#links {
-	border: 1% solid #000;
+	border: 2px solid #000;
 	background-color: #ffae6d;
 	display: inline;
 }
