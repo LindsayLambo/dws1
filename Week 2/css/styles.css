@@ -1,12 +1,18 @@
-/*     Lindsay Lambert    Project 2    10/10/14      */
+/*     Lindsay Lambert    Project 3    10/16/14      */
+
+
+#content {
+	width: 100%;
+	background: url("images/knit.png") center center;
+}
+	
+
 /*     Rules for the body of the html page     */
 body {
 	font-family: Georgia, Times, serif;
-	background-color: #b59d69;
 	color: #8a3547;
 	border-radius: 10px;
-	padding: 5px;
-	margin: 5px auto;
+	margin:0;
 }
 
 /*      Adding Web Font     */
@@ -15,6 +21,10 @@ body {
     font-family: 'Noto Sans';
     src: url(NotoSans-Bold.ttf);
 }
+
+
+
+	
 
 /*     Styling Links     */
 
@@ -38,15 +48,15 @@ a:active {
 
 h1, h2, h3, h4 {
 	font-family: 'Noto Sans', Georgia, serif;
-	width: 300px;
+	width: 30%;
 	color: #8a3547;
 	background-color: #ffae6d;
 	border-radius: 10px;
-	padding: 5px;
-	margin: 5px auto;
+	padding: 1%;
 	text-align: center;
 	text-shadow: 1px 2px 1px #666;
-	border: 2px solid #8a3547;
+	border: 1% solid #8a3547;
+	margin: 2% auto;
 }
 
 /*     Styling Anchor Elements     */
@@ -54,55 +64,79 @@ h1, h2, h3, h4 {
 a {
 	text-decoration: none;
 	text-align: left;
+	display: inline;
+	margin: 1% auto;
 	
 }
 
 /*     Styling Paragraphs     */
 
 p {
-	width: 400px;
+	width: 40%;
 	color: #afe55a;
 	background-color: #b59d69;
 	opacity: 0.8;
 	border-radius: 10px;
-	padding: 10px;
-	border: 2px solid #000;
+	padding: 1%;
+	border: 1% solid #000;
 	text-align: center;
+	margin: 1% auto;
 }	
 
 /*     Styling Unordered Lists     */
 
 ul {
-	width: 350px;
+	width: 35%;
 	list-style: inside circle;
 	color: #9a3e3d;
 	background-color: #ffae6d;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 1%;
 	text-align: center;
-	border: 2px solid #8a3547;
+	border: 2% solid #8a3547;
 }	
 
 /*     Styling Ordered Lists     */
 
 ol {
-	width: 400px;
+	width: 40%;
 	color: #8a3547;
 	list-style: inside lower-roman;
 	margin: 5px auto;
-	padding: 10px;
+	padding: 1%;
 	text-align: center;
 }	
 
 /*     Styling Figure Elements     */
 
 figure {
-	width: 500px;
-	padding: 10px;
-	border: 2px inset #8a3547;
+	width: 50%;
+	padding: 2%;
+	border: 2% inset #8a3547;
 	box-shadow: 5px 5px 5px #000;
 	text-align: center;
+	float: right;
+	clear: both;
+	border: 1% solid #8a3547;
 }
+
+
+li {
+	width: 50%;
+	margin: 1% auto;
+}
+
+#bottom {
+	float: right;
+	width: 35%;
+	clear: both;
+}		
+
+figcaption {
+	background-color: #ffae6d;
+	float: right;
+	clear: both;
+}	
 
 /*     Styling Images     */
 
@@ -111,7 +145,7 @@ img {
 	width: 300px;
 	border:none;
 	border-radius: 10px;
-	padding: 5px;
+	padding: 1%;
 	display: block;
 }
 
@@ -129,7 +163,7 @@ li.descriptions {
 /*     Styling Unordered List with id sidedishes     */
 
 ul#sidedishes {
-	width: 265px;
+	width: 26%;
 	font-size: 1.5em;
 	font-style: oblique;
 	line-height: 2em;
@@ -138,22 +172,34 @@ ul#sidedishes {
 
 /*     Styling the unordered list with an id of entreelist     */
 
-ol#entreelist {
+#entreelist {
 	text-align: left;
-	width: 700px;
-	padding: 10px;
-	border: 2px solid #8a3547;
+	width: 70%;
+	padding: 2%;
+	border: 1% solid #8a3547;
+	background-color: #b59d69;
+	clear:both;
 }	
 
 /*     Styling Global Links     */
 
 ul#links {
-	border: 2px solid #000;
+	border: 1% solid #000;
 	background-color: #ffae6d;
-	display: inline-block;
+	display: inline;
 }
 
 div {
-	margin: 10px auto;
+	overflow: auto;
+	clear: both;
+}
+
+	
+div#content {
+	margin: 3% auto;
 }	
-		
+
+.center {
+	margin: 3% auto;
+	
+}			
