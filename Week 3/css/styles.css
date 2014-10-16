@@ -90,7 +90,7 @@ p {
 /*     Styling Unordered Lists     */
 
 ul {
-	width: 35%;
+	width: 20%;
 	list-style: inside circle;
 	color: #9a3e3d;
 	background-color: #ffae6d;
@@ -116,7 +116,7 @@ ol {
 
 /*     Styling Figure Elements     */
 
-figure {
+.figure {
 	width: 50%;
 	padding: 2%;
 	border: 3px inset #8a3547;
@@ -142,8 +142,6 @@ li {
 
 figcaption {
 	background-color: #ffae6d;
-	float: right;
-	clear: both;
 }	
 
 /*     Styling Images     */
