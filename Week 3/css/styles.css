@@ -10,8 +10,7 @@ body {
 	font-size: 80%;
 	font-family: Georgia, Times, serif;
 	letter-spacing: 0.15em;
-	background: rgb(239, 239, 239) url("../images/subtlesplatter.jpg");
-	border: 4px double #000;
+	background: rgb(239, 239, 239) url("../images/texture.jpg");
 	color: #8a3547;
 	border-radius: 10px;
 }
@@ -29,7 +28,7 @@ body {
 #blackcat {
 	width: 304px;
 	height: 395px;
-	background: url("../images/petitchatnoir.jpg") no-repeat top center;
+	background: url("../images/petitchatnoir.jpg") no-repeat top left;
 	margin: 1% auto;
 }	
 
@@ -45,7 +44,9 @@ body {
 	padding: 1.5%;
 	text-decoration: none;
 	margin: 2% auto;
+	display: inline;
 }
+
 
 
 /*      Adding Web Font     */
@@ -78,7 +79,8 @@ a:active {
 
 h1, h2, h3, h4 {
 	font-family: 'Noto Sans', Georgia, serif;
-	width: 30%;
+	width: 40%;
+	font-size: 1.6em;
 	color: #8a3547;
 	background-color: #ffae6d;
 	border-radius: 10px;
@@ -132,18 +134,16 @@ ol {
 }	
 
 .column1-2 {
-	width: 30%;
-	padding: 2%;
-	border:3px inset #8a3547;
-	box-shadow: 5px 5px 5px #000;
+	width: 50%;
 	text-align: center;
 	float: left;
 	clear: both;
 	font-size: 0.7em;
+	background-color: #b59d69;
 	height: 30%;
 	float:left;
 	margin: 2%;
-	background: url("../images/knit.png") no-repeat bottom;
+	overflow: auto;
 }	
 
 
@@ -151,17 +151,15 @@ ol {
 /*     Styling Figure Elements     */
 
 .column2-2 {
-	width: 30%;
-	padding: 2%;
-	border: 3px inset #8a3547;
-	box-shadow: 5px 5px 5px #000;
+	width: 65%;
 	text-align: center;
 	clear: both;
+	background-color: #b59d69;
 	font-size: 0.7em;
 	height: 30%;
-	float:left;
+	float: right;
 	margin: 2%;
-	background: url("../images/knit.png");
+	overflow: auto;
 }
 
 
@@ -193,10 +191,20 @@ li {
 
 
 #gallery {
-	width: 60%;
-	margin: 3% auto;
+	width: 75%;
+	margin: 5% auto;
+	float: right;
 	overflow: auto;
+	clear: both;
 }
+
+
+figure { 
+	width: 50%;
+	margin: 5% auto;
+	overflow: auto;
+	clear: both;
+}	
 
 	
 figcaption {
@@ -212,8 +220,15 @@ img {
 	border-radius: 10px;
 	padding: 1%;
 	display: block;
+	margin: 1% auto;
 }
 
+figure img {
+	margin: 1% auto;
+	padding: 1%;
+}
+
+	
 /*     Styling List Items with the class descriptions     */
 
 li.descriptions {
@@ -228,13 +243,13 @@ li.descriptions {
 /*     Styling Unordered List with id sidedishes     */
 
 #sides {
-	width: 17%;
+	width: 45%;
 	font-size: 1.5em;
 	font-style: oblique;
 	line-height: 1.7em;
 	text-align: left;
 	padding: 1%;
-	float: right;
+	float: left;
 	margin: 2% auto;
 	clear: both;	
 }
@@ -242,6 +257,7 @@ li.descriptions {
 /*     Styling the unordered list with an id of entreelist     */
 
 #entreelist {
+	width: 45%;
 	text-align: left;
 	width: 70%;
 	padding: 2%;
