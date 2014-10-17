@@ -1,6 +1,8 @@
 /*     Lindsay Lambert    Project 3    10/16/14      */
 
-
+html {
+	display: block;
+}	
 
 
 /*     Rules for the body of the html page     */
@@ -83,7 +85,6 @@ h1, h2, h3, h4 {
 	padding: 1%;
 	text-align: center;
 	text-shadow: 1px 2px 1px #666;
-	border: 2px solid #8a3547;
 	margin: 2% auto;
 }
 
@@ -91,22 +92,19 @@ h1, h2, h3, h4 {
 
 a {
 	width: 50%;
+	text-transform: uppercase;
 	text-decoration: none;
-	text-align: left;
 	margin: 1% auto;
-	
 }
 
 /*     Styling Paragraphs     */
 
 p {
-	width: 40%;
 	color: #afe55a;
 	background-color: #b59d69;
 	opacity: 0.8;
 	border-radius: 10px;
 	padding: 1%;
-	border: 2px solid #000;
 	text-align: center;
 	margin: 1% auto;
 }	
@@ -114,21 +112,18 @@ p {
 /*     Styling Unordered Lists     */
 
 ul {
-	width: 20%;
 	list-style: inside circle;
 	color: #9a3e3d;
 	background-color: #ffae6d;
 	border-radius: 10px;
 	padding: 1%;
 	text-align: left;
-	border: 2px solid #8a3547;
 	margin: 2% auto;
 }	
 
 /*     Styling Ordered Lists     */
 
 ol {
-	width: 40%;
 	color: #8a3547;
 	list-style: inside lower-roman;
 	margin: 1% auto;
@@ -185,15 +180,15 @@ li {
 
 
 #gradient {
-
-	background: #f0b7a1; /* Old browsers */
-	background: -moz-linear-gradient(-45deg,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f0b7a1), color-stop(50%,#8c3310), color-stop(51%,#752201), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* IE10+ */
-	background: linear-gradient(135deg,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+	background: #f3e2c7;
+	background: -moz-linear-gradient(-45deg,  #f3e2c7 0%, #f3e2c7 5%, #c19e67 15%, #c19e67 15%, #c19e67 19%, #c19e67 26%, #f3e2c7 69%, #b68d4c 84%, #e9d4b3 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f3e2c7), color-stop(5%,#f3e2c7), color-stop(15%,#c19e67), color-stop(15%,#c19e67), color-stop(19%,#c19e67), color-stop(26%,#c19e67), color-stop(69%,#f3e2c7), color-stop(84%,#b68d4c), color-stop(100%,#e9d4b3));
+	background: -webkit-linear-gradient(-45deg,  #f3e2c7 0%,#f3e2c7 5%,#c19e67 15%,#c19e67 15%,#c19e67 19%,#c19e67 26%,#f3e2c7 69%,#b68d4c 84%,#e9d4b3 100%);
+	background: -o-linear-gradient(-45deg,  #f3e2c7 0%,#f3e2c7 5%,#c19e67 15%,#c19e67 15%,#c19e67 19%,#c19e67 26%,#f3e2c7 69%,#b68d4c 84%,#e9d4b3 100%);
+	background: -ms-linear-gradient(-45deg,  #f3e2c7 0%,#f3e2c7 5%,#c19e67 15%,#c19e67 15%,#c19e67 19%,#c19e67 26%,#f3e2c7 69%,#b68d4c 84%,#e9d4b3 100%);
+	background: linear-gradient(135deg,  #f3e2c7 0%,#f3e2c7 5%,#c19e67 15%,#c19e67 15%,#c19e67 19%,#c19e67 26%,#f3e2c7 69%,#b68d4c 84%,#e9d4b3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=1 );
 }		
 
 
