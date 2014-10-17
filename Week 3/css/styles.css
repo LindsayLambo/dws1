@@ -2,28 +2,49 @@
 
 
 
-html {
-	display: block;
+
+/*     Rules for the body of the html page     */
+body {
+	font-size: 80%;
+	font-family: Georgia, Times, serif;
+	letter-spacing: 0.15em;
+	background: rgb(239, 239, 239) url("../images/subtlesplatter.jpg");
+	border: 4px double #000;
+	color: #8a3547;
+	border-radius: 10px;
 }
 
 	
 #content {
-	width: 100%;
-	background: url("../images/subtlesplatter.jpg");
-	padding: 20px;
-	margin: 2% auto;
-}
-	
-
-/*     Rules for the body of the html page     */
-body {
 	width: 95%;
-	border: 4px double #000;
-	font-family: Georgia, Times, serif;
-	color: #8a3547;
-	border-radius: 10px;
+	display: block;
+	margin: 2%; 
+	border: 4px double #000c11;
+	padding: 2%;
 	margin: 1% auto;
 }
+	
+#blackcat {
+	width: 304px;
+	height: 395px;
+	background: url("../images/petitchatnoir.jpg") no-repeat top center;
+	margin: 1% auto;
+}	
+
+
+/*     Styling Global Links     */
+
+#nav {
+	width: 65%;
+	list-style-type: none;
+	text-align: center;
+	border-top: 1px solid #000c11;
+	border-bottom: 3px solid #000c11;
+	padding: 1.5%;
+	text-decoration: none;
+	margin: 2% auto;
+}
+
 
 /*      Adding Web Font     */
 
@@ -40,7 +61,7 @@ a:link {
 	text-decoration: none;
 }
 a:visited {
-	color: #ffae6d;
+	color: #000c11;
 }	
 a:hover {
 	color: #afe55a;
@@ -72,7 +93,6 @@ a {
 	width: 50%;
 	text-decoration: none;
 	text-align: left;
-	display: inline;
 	margin: 1% auto;
 	
 }
@@ -113,8 +133,7 @@ ol {
 	list-style: inside lower-roman;
 	margin: 1% auto;
 	padding: 1%;
-	text-align: center;
-	display: block;
+	text-align: left;
 }	
 
 .column1-2 {
@@ -129,7 +148,7 @@ ol {
 	height: 30%;
 	float:left;
 	margin: 2%;
-	background: url("../images/shadow.png") no-repeat bottom;
+	background: url("../images/knit.png") no-repeat bottom;
 }	
 
 
@@ -154,9 +173,7 @@ ol {
 li {
 	width: 50%;
 	margin: 1% auto;
-	display: inline;
 	padding: 1%;
-	
 }
 
 #bottom {
@@ -196,7 +213,7 @@ figcaption {
 img {
 	height: 200px;
 	width: 300px;
-	border:none;
+	border: none;
 	border-radius: 10px;
 	padding: 1%;
 	display: block;
@@ -240,21 +257,10 @@ li.descriptions {
 	clear:both;
 }	
 
-/*     Styling Global Links     */
 
-ul#links {
-	background-color: #ffae6d;
-	display: inline;
-	text-decoration: none;
-	margin: 2%;
-}
 
 div {
 	overflow: auto;
 	clear: both;
 }
 
-
-.center {
-	margin: 3% auto;
-}			
