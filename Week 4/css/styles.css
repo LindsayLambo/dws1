@@ -32,7 +32,7 @@ body {
 #blackcat {
 	width: 304px;
 	height: 395px;
-	margin: 1%;
+	margin: 0;
 	overflow: auto;
 }	
 
@@ -47,21 +47,18 @@ header {
 	padding: 1%;
 	text-align: center;
 	text-shadow: 1px 2px 1px #666;
-	margin: 2% auto;
+	margin: 0 auto;
 }	
 
 
 /*     Styling Global Links     */
 
 nav {
-	width: 40%;
+	width: 75%;
 	list-style-type: none;
-	border-top: 1px solid #000c11;
-	border-bottom: 3px solid #000c11;
 	padding: 1.5%;
 	text-decoration: none;
 	margin: 1% auto;
-	display: inline;
 	text-align: center;
 }
 
@@ -123,6 +120,7 @@ p {
 	padding: 1%;
 	text-align: center;
 	margin: 1% auto;
+	border: 2px solid #8a3547;
 }	
 
 /*     Styling Unordered Lists     */
@@ -195,9 +193,9 @@ aside {
 /* Styling list items */
 
 li {
-	width: 50%;
 	margin: 1% auto;
 	padding: 1%;
+	display: inline-block;
 }
 
 /* styling the footer */
@@ -256,6 +254,23 @@ figcaption {
 	padding: 1%;
 }	
 
+/*  Style the blockquote     */
+
+#blockquote {
+	width: 55%;
+	font-size: 1.3em;
+	color: #8a3547;
+	background-color: #ffae6d;
+	border-radius: 10px;
+	padding: 1%;
+	text-align: center;
+	text-shadow: 1px 2px 1px #666;
+	margin: 2% auto;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+
+
 /*     Styling Images     */
 
 img {
@@ -281,7 +296,7 @@ figure img {
 li.descriptions {
 	list-style-type:none;
 	border-radius: 10px;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: bold;
 	line-height: 1.7em;
 	text-align: left;
