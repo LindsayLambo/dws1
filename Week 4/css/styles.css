@@ -12,20 +12,19 @@ body {
 	font-size: 80%;
 	font-family: Georgia, Times, serif;
 	letter-spacing: 0.15em;
-	background: rgb(239, 239, 239) url("../images/texture.jpg");
+	background: url("../images/rocksmooth.jpg");
 	color: #8a3547;
 	border-radius: 10px;
+	margin: 0;
 }
 
 /* Rules for elements with the id of content */
 	
 #content {
 	width: 95%;
-	display: block;
-	margin: 2%; 
+	display: block; 
 	border: 4px double #000c11;
-	padding: 2%;
-	margin: 1% auto;
+	margin: 2% auto;
 }
 
 /* Le Petit Chat Noir's Logo */
@@ -34,23 +33,37 @@ body {
 	width: 304px;
 	height: 395px;
 	background: url("../images/petitchatnoir.jpg") no-repeat top left;
-	margin: 1% auto;
+	margin: 1%;
 	overflow: auto;
+}	
+
+
+header {
+	font-family: 'Noto Sans', Georgia, serif;
+	width: 60%;
+	font-size: 1.6em;
+	color: #8a3547;
+	background-color: #ffae6d;
+	border-radius: 10px;
+	padding: 1%;
+	text-align: center;
+	text-shadow: 1px 2px 1px #666;
+	margin: 2% auto;
 }	
 
 
 /*     Styling Global Links     */
 
-#nav li {
+nav {
 	width: 40%;
 	list-style-type: none;
 	border-top: 1px solid #000c11;
 	border-bottom: 3px solid #000c11;
 	padding: 1.5%;
 	text-decoration: none;
-	margin: 2% auto;
+	margin: 1% auto;
 	display: inline;
-	
+	text-align: center;
 }
 
 
@@ -102,21 +115,20 @@ a {
 	width: 50%;
 	text-transform: uppercase;
 	text-decoration: none;
-	margin: 1% auto;
 }
 
 /*     Styling Paragraphs     */
 
 p {
-	width: 50%;
+	width: 60%;
 	font-size: 1.5em;
 	color: #afe55a;
 	background-color: #b59d69;
-	opacity: 0.8;
+	opacity: 0.9;
 	border-radius: 10px;
 	padding: 1%;
 	text-align: center;
-	margin: 2% auto;
+	margin: 1% auto;
 }	
 
 /*     Styling Unordered Lists     */
@@ -128,59 +140,61 @@ ul {
 	border-radius: 10px;
 	padding: 1%;
 	text-align: left;
-	margin: 2% auto;
+	margin: 1% auto;
 }	
 
 /*     Styling Ordered Lists     */
 
 ol {
 	color: #8a3547;
-	list-style: inside lower-roman;
+	list-style: inside circle;
+	color: #9a3e3d;
+	background-color: #ffae6d;
 	margin: 1% auto;
 	padding: 1%;
 	text-align: left;
 }	
 
-/* styling the first column  */
 
-.column1-2, .column2-2 {
-	width: 78%;
-	text-align: center;
-	clear: both;
-	font-size: 1em;
-	background-color: #b59d69;
-	height: 30%;
-	margin: 2% auto;
-	overflow: auto;
-	float: right;
-}	
+	
 
 /* Styling soups and salads  */
 
-#soupnsalad {
+section {
 	width: 45%;
 	font-size: 1.5em;
 	font-style: oblique;
 	line-height: 1.7em;
 	text-align: left;
 	padding: 1%;
-	margin: 2% auto;
-	clear: both;	
+	float: left;
+	margin: 1% auto;
+	clear: both;
+	overflow: auto;	
 }	
 
 /* Styling more of the menu  */
 
-#escargots {
+article {
 	width: 78%;
 	text-align: left;
-	padding: 2%;
+	padding: 1%;
 	float: left;
-	margin: 5% auto;
+	margin: 1% auto;
 	background-color: #b59d69;
 	clear:both;
+	overflow: auto;
 }	
 
-
+aside {
+	width: 50%;
+	float: right;
+	clear: both;
+	margin: 1%;
+	padding: 1%;
+	border: 1px inset #000;
+	overflow: auto;
+}	
 
 
 /* Styling list items */
@@ -191,14 +205,20 @@ li {
 	padding: 1%;
 }
 
-/* styling the element with the id of bottom */
+/* styling the footer */
 
-#bottom {
-	width: 40%;
-	font-size: 1.2em;
-	clear: both;
-	margin: 3% auto;
-}	
+footer {
+	width: 90%;
+	font-size: 1.3em;
+	color: #8a3547;
+	background-color: #ffae6d;
+	border-radius: 10px;
+	padding: 1%;
+	text-align: center;
+	text-shadow: 1px 2px 1px #666;
+	margin: 2% auto;
+}
+
 
 /* added a gradient to an element with an id of gradient */
 
@@ -219,6 +239,7 @@ li {
 
 #gallery {
 	width: 46.5%;
+	float: left;
 	overflow: auto;
 	clear: both;
 }
@@ -229,6 +250,8 @@ figure {
 	overflow: auto;
 	clear: both;
 }	
+
+
 /* Styling the figcaptions, as well as the figures they're in */
 	
 figcaption {
