@@ -12,7 +12,7 @@ body {
 	font-size: 80%;
 	font-family: Georgia, Times, serif;
 	letter-spacing: 0.15em;
-	background: url("../images/rocksmooth.jpg");
+	background: url("../images/petitchatnoir.jpg") no-repeat top left, url("../images/rocksmooth.jpg");
 	color: #8a3547;
 	border-radius: 10px;
 	margin: 0;
@@ -32,7 +32,6 @@ body {
 #blackcat {
 	width: 304px;
 	height: 395px;
-	background: url("../images/petitchatnoir.jpg") no-repeat top left;
 	margin: 1%;
 	overflow: auto;
 }	
