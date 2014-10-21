@@ -231,11 +231,12 @@ footer {
 
 /* Added some styling to the gallery div with an id of gallery */
 
-/*
+
 #gallery {
-	width: 46.5%;
+	overflow: auto;
 }
-*/
+
+
 
 /* Adding some styling to the figures */
 
