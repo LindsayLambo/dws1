@@ -260,7 +260,7 @@ figcaption {
 
 /*  Style the blockquote     */
 
-#blockquote {
+blockquote {
 	width: 55%;
 	font-size: 1.3em;
 	color: #8a3547;
