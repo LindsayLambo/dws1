@@ -231,16 +231,18 @@ footer {
 
 /* Added some styling to the gallery div with an id of gallery */
 
-
+/*
 #gallery {
 	width: 46.5%;
 }
+*/
 
 /* Adding some styling to the figures */
 
 figure { 
+	width: 600px;
 	overflow: auto;
-	clear: both;
+	float: left;
 	border: 2px inset #000;
 	margin: 5% 3%;
 }	
@@ -280,7 +282,7 @@ img {
 	border: none;
 	border-radius: 10px;
 	padding: 1%;
-	display: inline;
+	display: block;
 	margin: 1% auto;
 }
 
