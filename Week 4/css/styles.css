@@ -241,7 +241,7 @@ footer {
 /* Adding some styling to the figures */
 
 figure { 
-	width: 600px;
+	width: 500px;
 	overflow: auto;
 	float: left;
 	border: 2px inset #000;
@@ -332,9 +332,6 @@ li.descriptions {
 	background-color: #ffae6d;
 }	
 
-/* Just making sure */
 
-div {
-	clear: both;
-}
+
 
