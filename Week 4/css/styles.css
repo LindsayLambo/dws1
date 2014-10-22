@@ -380,7 +380,15 @@ td:hover {
 	border: 1px inset #666;
 }	
 
-
+form {
+	padding: 2%;
+	margin: 3% auto;
+	font-size: 95%;
+	color: #8a3547;
+	border: 2px inset #000;
+	text-align: right;
+	background-color: #ffae6d;
+}	
 
 input {
 	width: 15%;
@@ -393,4 +401,7 @@ textarea {
 	border: 1px solid #000;
 }		
 
-
+label {
+	width: 20%;
+	float: left;
+}	
