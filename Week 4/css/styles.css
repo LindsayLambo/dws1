@@ -355,7 +355,6 @@ th {
 	text-transform: uppercase;
 	border-top: 1px solid #000;
 	border-bottom: 2px solid #000;
-	background-color: #b59d69;
 }
 
 
@@ -371,7 +370,7 @@ td {
 	
 /* Styling elements with a class of shade  */
 
-td.shade {
+tr.shade th, tr.shade td {
 	background-color: #aeaca8:
 }
 
@@ -382,5 +381,16 @@ td:hover {
 }	
 
 
+
+input {
+	width: 15%;
+	border: 1px solid #000;
+}
+
+
+textarea {
+	width: 25%
+	border: 1px solid #000;
+}		
 
 
