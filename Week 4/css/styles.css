@@ -332,6 +332,55 @@ li.descriptions {
 	background-color: #ffae6d;
 }	
 
+/* Adding Table Styling */
+
+
+table {
+	width: 90%;
+	padding: 2%;
+	text-align: center;
+	background-color: #ffae6d;
+	color: #8a3547;
+	font-size: 1.3em;
+}	
+
+
+/* Styling Table Headers */
+
+
+th {
+	font-size: 1.2em;
+	text-shadow: 1px 1px 2px #666;
+	letter-spacing: 1.001em;
+	text-transform: uppercase;
+	border-top: 1px solid #000;
+	border-bottom: 2px solid #000;
+	background-color: #b59d69;
+}
+
+
+/* Styling Table Cells */	
+
+
+td {
+	text-align: left;
+	background-color: #666;
+	color: #fff;
+	border: 1px solid #fff;
+}	
+	
+/* Styling elements with a class of shade  */
+
+.shade {
+	background-color: #aeaca8:
+}
+
+td:hover {	
+	background-color: #fff;
+	color: #aeaca8;
+	border: 1px inset #666;
+}	
+
 
 
 
