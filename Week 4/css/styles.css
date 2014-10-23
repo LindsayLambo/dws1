@@ -368,7 +368,7 @@ td {
 	background-color: #666;
 	color: #fff;
 	border: 1px solid #fff;
-	border-spacing: 1%;
+	border-spacing: 2px;
 }	
 	
 /* Styling elements with a class of shade  */
@@ -387,7 +387,7 @@ td:hover, th:hover {
 form {
 	padding: 2%;
 	margin: 3% auto;
-	font-size: 95%;
+	font-size: 1.1em;
 	color: #8a3547;
 	border: 2px inset #000;
 	text-align: center;
@@ -395,10 +395,12 @@ form {
 }	
 
 input [
+	width: 40%;
+	height: 30%;
 	border: 1px solid #000;
 	padding: 2%;
 	margin: 3% auto;
-	font-size: 95%;
+	font-size: 1.1em;
 	color: #8a3547;
 	text-align: left;
 }
@@ -421,10 +423,7 @@ label {
 	text-shadow: 1px 2px 1px #666;
 	margin: 1% auto;
 	border: 1px solid #8a3547;
-	float:left;
-	overflow: auto;
-	clear: both;
-}	
+}
 
 input.text:focus {
 	color:#8a3547;
@@ -440,7 +439,10 @@ checkbox {
 	margin: 3% auto;
 }	
 
-
+form.title {
+	width: 25%;
+	float:left;
+}	
 
 
 
