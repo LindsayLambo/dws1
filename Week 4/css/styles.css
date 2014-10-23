@@ -343,6 +343,7 @@ table {
 	color: #8a3547;
 	font-size: 1.3em;
 	margin: 2% auto;
+	border: 2px inset #8a3547;
 }	
 
 
@@ -373,6 +374,7 @@ td {
 
 tr.shade th, tr.shade td {
 	background-color: #aeaca8;
+	color: #fff;
 }
 
 td:hover, th:hover {	
@@ -391,18 +393,52 @@ form {
 	background-color: #ffae6d;
 }	
 
-input {
-	width: 15%;
+input [
 	border: 1px solid #000;
 }
 
 
 textarea {
-	width: 25%;
+	width: 30%;
+	height: 20%
 	border: 1px solid #000;
 }		
 
 label {
-	width: 20%;
-	float: left;
+	width: 25%;
+	font-size: 1.3em;
+	color: #8a3547;
+	background-color: #ffae6d;
+	border-radius: 5px;
+	padding: 1%;
+	text-align: center;
+	text-shadow: 1px 2px 1px #666;
+	margin: 1% auto;
+	border: 1px solid #8a3547;
+	float:left;
+	overflow: auto;
+	clear: both;
 }	
+
+input.text:focus {
+	color:#8a3547;
+}
+				
+label:hover {
+	background-color: #fff;
+	color: #aeaca8;
+}	
+
+div.forms {
+	border: 1px solid #8a3547;
+}	
+
+
+
+
+
+
+
+
+
+

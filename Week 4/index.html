@@ -147,9 +147,9 @@
 				</section>	
 			
 				<div>
-					<h2>Specials</h2>
 					<table>
 						<tr class="shade">
+							<label for="text">Specials</label>
 							<th scope="row">Monday</th>
 							<td>Bourguignon Beef $20</td>
 						</tr>
@@ -239,14 +239,31 @@
 				
 			<article>	
 				
-				<div>
+				<div class="forms">
 					<h2>Join our Newsletter to explore new recipes and learn about seasonal foods!</h2>
 						<label for="input">Email:</label>
 						<input type="text" name="email" />
 						<input type="submit" value="Subscribe" />
 				</div>
 				
-     			<div>
+				<div class="forms">
+					<label for="birthday">Birthday Month:</label>
+						<select name="birthday" id="birthday" class="title">
+							<option value="1">January</option>
+							<option value="2">February</option>
+							<option value="3">March</option>
+							<option value="4">April</option>
+							<option value="5">May</option>
+							<option value="6">June</option>
+							<option value="7">July</option>
+							<option value="8">August</option>
+							<option value="9">September</option>
+							<option value="10">October</option>
+							<option value="11">November</option>
+							<option value="12">December</option>
+				</div>			
+				
+     			<div class="forms">
      				<h3>What is your favorite kind of restaurant to visit?</h3>
      					<label for="input">Favorite Food:</label>
      					<input type="radio" name="favefood" value="Italian"
@@ -258,12 +275,31 @@
      					<input type="radio" name="favefood" value="Mexican" />Mexican
      			</div>		
      			
-     			<div>	
-     				<h2>Contact Us:</h2>
-     				<label for="form">Email Us:</label>
+     			<div class="forms">	
+     				<label for="form">Contact Us:</label>
      				<form action="mailto:LindsayLambo@fullsail.edu" method="post"> 
+     				<textarea>
+    					Your text goes here...</textarea>
      			</div>
-     			<div>
+     			
+     			<div class="forms">
+     				<label for="search">Search:</label>
+     				<form action="http://www.example.org/search.php">
+					<br />
+					<input type="search" name="search" placeholder="Enter keywords" />
+					<input type="submit" value="Search" />
+					</form>
+     			</div>
+     			
+     			<div class="forms">
+     				<label for="url">Enter your Web Address:</label>
+     				<form action="http://www.example.org/profile.php"> 
+					<input type="url" name="website" />
+					<input type="submit" value="Submit" />
+					</form>
+				</div>	
+     			
+     			<div class="forms">
 					<h3>What did you think of our website?</h3>
 					
 					<label for="textarea">Comments:</label>
