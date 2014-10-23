@@ -148,8 +148,10 @@
 			
 				<div>
 					<table>
-						<tr class="shade">
+						<div>
 							<label for="text">Specials</label>
+						</div>
+							<tr class="shade">
 							<th scope="row">Monday</th>
 							<td>Bourguignon Beef $20</td>
 						</tr>
@@ -172,7 +174,7 @@
 						<tr>
 							<th scope="row">Saturday</th>
 							<td>With Purchase of Appetizer and Entree, complimentary
-							 glass of house wine</td>			
+							 glass of house wine</td>		
 						</tr>
 						<tr class="shade">
 							<th scope="row">Sunday</th>
@@ -241,13 +243,13 @@
 				
 				<div class="forms">
 					<h2>Join our Newsletter to explore new recipes and learn about seasonal foods!</h2>
-						<label for="input">Email:</label>
+						<h3><label for="input">Email:</label></h3>
 						<input type="text" name="email" />
 						<input type="submit" value="Subscribe" />
 				</div>
 				
 				<div class="forms">
-					<label for="birthday">Birthday Month:</label>
+					<h3><label for="birthday">Birthday Month:</label></h3>
 						<select name="birthday" id="birthday" class="title">
 							<option value="1">January</option>
 							<option value="2">February</option>
@@ -264,8 +266,7 @@
 				</div>			
 				
      			<div class="forms">
-     				<h3>What is your favorite kind of restaurant to visit?</h3>
-     					<label for="input">Favorite Food:</label>
+     				<h3><label for="input">What is your favorite kind of restaurant to visit?</label></h3>
      					<input type="radio" name="favefood" value="Italian"
      					checked="checked" />Italian
      					<input type="radio" name="favefood" value="Japanese" />Japanese
@@ -275,15 +276,26 @@
      					<input type="radio" name="favefood" value="Mexican" />Mexican
      			</div>		
      			
+     			
+     			<div>
+     				<h3><label for="checkbox">Dining Location Preference:</label></h3>
+     				 <form action="http://www.example.com/profile.php">
+					<br />
+					<input type="checkbox" name="checkbox" class="inline" value="Fancy Cafe" checked="checked" /> Fancy Cafe
+					<input type="checkbox" name="checkbox" class="inline" value="At Home" /> At Home
+					<input type="checkbox" name="checkbox" class="inline" value="Comfy Little Diner" /> Comfy Little Diner
+				</div>
+			</form>
+		
      			<div class="forms">	
-     				<label for="form">Contact Us:</label>
+     				<h3><label for="form">Contact Us:</label></h3>
      				<form action="mailto:LindsayLambo@fullsail.edu" method="post"> 
      				<textarea>
     					Your text goes here...</textarea>
      			</div>
      			
      			<div class="forms">
-     				<label for="search">Search:</label>
+     				<h3><label for="search">Search:</label></h3>
      				<form action="http://www.example.org/search.php">
 					<br />
 					<input type="search" name="search" placeholder="Enter keywords" />
@@ -292,7 +304,7 @@
      			</div>
      			
      			<div class="forms">
-     				<label for="url">Enter your Web Address:</label>
+     				<h3><label for="url">Enter your Web Address:</label></h3>
      				<form action="http://www.example.org/profile.php"> 
 					<input type="url" name="website" />
 					<input type="submit" value="Submit" />
@@ -300,9 +312,8 @@
 				</div>	
      			
      			<div class="forms">
-					<h3>What did you think of our website?</h3>
 					
-					<label for="textarea">Comments:</label>
+					<h3><label for="textarea">What did you think of our website?</label></h3>
 					<textarea id="comments" >
     					Your text goes here...</textarea>
     				<button onClick="yourFunction();">

@@ -368,6 +368,7 @@ td {
 	background-color: #666;
 	color: #fff;
 	border: 1px solid #fff;
+	border-spacing: 1%;
 }	
 	
 /* Styling elements with a class of shade  */
@@ -389,12 +390,17 @@ form {
 	font-size: 95%;
 	color: #8a3547;
 	border: 2px inset #000;
-	text-align: right;
+	text-align: center;
 	background-color: #ffae6d;
 }	
 
 input [
 	border: 1px solid #000;
+	padding: 2%;
+	margin: 3% auto;
+	font-size: 95%;
+	color: #8a3547;
+	text-align: left;
 }
 
 
@@ -424,16 +430,15 @@ input.text:focus {
 	color:#8a3547;
 }
 				
-label:hover {
+label:hover, label:focus {
 	background-color: #fff;
 	color: #aeaca8;
+}		
+
+checkbox {
+	display: inline;
+	margin: 3% auto;
 }	
-
-div.forms {
-	border: 1px solid #8a3547;
-}	
-
-
 
 
 
