@@ -342,6 +342,7 @@ table {
 	background-color: #ffae6d;
 	color: #8a3547;
 	font-size: 1.3em;
+	margin: 2% auto;
 }	
 
 
@@ -371,10 +372,10 @@ td {
 /* Styling elements with a class of shade  */
 
 tr.shade th, tr.shade td {
-	background-color: #aeaca8:
+	background-color: #aeaca8;
 }
 
-td:hover {	
+td:hover, th:hover {	
 	background-color: #fff;
 	color: #aeaca8;
 	border: 1px inset #666;
@@ -397,7 +398,7 @@ input {
 
 
 textarea {
-	width: 25%
+	width: 25%;
 	border: 1px solid #000;
 }		
 
