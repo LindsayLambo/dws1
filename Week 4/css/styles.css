@@ -344,6 +344,7 @@ table {
 	font-size: 1.3em;
 	margin: 2% auto;
 	border: 2px inset #8a3547;
+	border-spacing: 0;
 }	
 
 
@@ -353,6 +354,7 @@ table {
 th {
 	font-size: 1.2em;
 	text-shadow: 1px 1px 2px #666;
+	text-align: left;
 	letter-spacing: 1.001em;
 	text-transform: uppercase;
 	border-top: 1px solid #000;
@@ -364,11 +366,10 @@ th {
 
 
 td {
-	text-align: left;
+	text-align: right;
 	background-color: #666;
 	color: #fff;
 	border: 1px solid #fff;
-	border-spacing: 2px;
 }	
 	
 /* Styling elements with a class of shade  */
@@ -429,7 +430,7 @@ input.text:focus {
 	color:#8a3547;
 }
 				
-label:hover, label:focus {
+form:hover, form:focus {
 	background-color: #fff;
 	color: #aeaca8;
 }		
